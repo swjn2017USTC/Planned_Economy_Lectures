@@ -1,0 +1,704 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>第26讲｜为什么模型运行正确，却完全解释不了真实历史？ · 计划经济的运行、改革与历史命运</title><meta name="description" content="七编二十八讲：社会主义经济史、政治经济学与历史计算实验。"><link rel="stylesheet" href="assets/style.css"><script defer src="assets/site.js"></script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script></head><body><a class="skip" href="#content">跳转到正文</a><div class="layout"><aside class="sidebar" id="sidebar"><a class="brand" href="index.html">计划经济的运行、改革与历史命运</a><div class="small">社会主义经济史 · 七编二十八讲</div><form action="search.html"><input class="search" aria-label="搜索讲义" type="search" name="q" placeholder="搜索28讲全文…"></form><a class="nav-item" href="experiments.html">◈ 互动机制实验室</a><a class="nav-item" href="reading.html">◎ 阅读指南与版本说明</a><a class="nav-item" href="appendices.html">◉ 全书附录、年表及术语</a><div class="nav-part">第一编 · 从革命理想到国家经济计划</div><a class="nav-item " href="lecture-01.html">01 · 计划经济为什么产生？从马克思的设想到苏联的制度创造</a><a class="nav-item " href="lecture-02.html">02 · 国家怎样制订并执行计划？从政治局到工厂车间</a><a class="nav-item " href="lecture-03.html">03 · 没有市场出清，经济怎样维持物资平衡？</a><a class="nav-item " href="lecture-04.html">04 · 计划机关怎样知道什么东西值得生产？价格、影子价格与经</a><div class="nav-part">第二编 · 从煤矿到百货商店：生产机器</div><a class="nav-item " href="lecture-05.html">05 · 为什么社会主义国家普遍优先发展重工业？</a><a class="nav-item " href="lecture-06.html">06 · 社会主义国营企业究竟怎样运行？</a><a class="nav-item " href="lecture-07.html">07 · 为什么一个不断扩大生产的经济仍然会出现短缺？</a><a class="nav-item " href="lecture-08.html">08 · 一个国家的生产和物流网络怎样被组织起来？</a><div class="nav-part">第三编 · 从银行到家庭：社会再生产</div><a class="nav-item " href="lecture-09.html">09 · 社会主义经济为什么也需要银行、信用和预算？</a><a class="nav-item " href="lecture-10.html">10 · 社会主义农业和农村经济为什么不能简单照搬工业？</a><a class="nav-item " href="lecture-11.html">11 · 充分就业为什么既是社会主义成就，也可能成为效率难题？</a><a class="nav-item " href="lecture-12.html">12 · 社会主义消费社会究竟是什么？工资、住房、排队与社会契</a><div class="nav-part">第四编 · 匈牙利改革的实际运行</div><a class="nav-item " href="lecture-13.html">13 · 1956年以后，卡达尔为什么选择经济改革与生活水平政</a><a class="nav-item " href="lecture-14.html">14 · 1968年匈牙利新经济机制究竟改革了什么？</a><a class="nav-item " href="lecture-15.html">15 · 为什么改革以后会出现新的矛盾，甚至重新加强行政控制？</a><a class="nav-item " href="lecture-16.html">16 · 第二经济与第二轮改革：社会主义体制能否容纳市场和私人</a><div class="nav-part">第五编 · 外部约束、危机与制度终结</div><a class="nav-item " href="lecture-17.html">17 · 社会主义国家怎样参与世界经济？经互会与两个贸易世界</a><a class="nav-item " href="lecture-18.html">18 · 1973年与1979年冲击：外债怎样延长繁荣，又怎样</a><a class="nav-item " href="lecture-19.html">19 · 1980年代匈牙利为什么陷入增长、消费和金融三重困境</a><a class="nav-item " href="lecture-20.html">20 · 1989年究竟什么失败了？计划体制、经济改革，还是党</a><div class="nav-part">第六编 · 苏东和中国比较</div><a class="nav-item " href="lecture-21.html">21 · 苏联：为什么传统计划经济能够工业化，却难以维持长期增</a><a class="nav-item " href="lecture-22.html">22 · 东德、波兰、南斯拉夫：为什么改革路径不同，危机却具有</a><a class="nav-item " href="lecture-23.html">23 · 中国1953—1978年：传统计划经济究竟怎样在中国</a><a class="nav-item " href="lecture-24.html">24 · 中国为什么走出了与匈牙利不同的改革道路？</a><div class="nav-part">第七编 · 建模、证据与综合解释</div><a class="nav-item " href="lecture-25.html">25 · 如何把历史经济变成一个可运行的计算模型？</a><a class="nav-item active" href="lecture-26.html">26 · 为什么模型运行正确，却完全解释不了真实历史？</a><a class="nav-item " href="lecture-27.html">27 · 怎样检验历史解释？参数识别、反事实和不确定性</a><a class="nav-item " href="lecture-28.html">28 · 综合结论：计划经济的形成、成功、矛盾、改革与不同命运</a></aside><div class="main"><div class="top"><button class="mobile-menu" aria-label="打开目录" onclick="document.getElementById('sidebar').classList.toggle('open')">☰ 目录</button><a href="index.html">课程首页</a><a href="experiments.html">互动实验</a><div class="spacer"></div><a href="reading.html">关于本书</a></div><main class="wrap" id="content"><article class="article"><h1 id="第26讲为什么模型运行正确却完全解释不了真实历史">第26讲｜为什么模型运行正确，却完全解释不了真实历史？</h1>
+<blockquote>
+<p><strong>《计划经济的运行、改革与历史命运》·第七编「建模、证据与综合解释」</strong><br />
+<strong>版本日期</strong>：2026-10-26 · v1.0<br />
+<strong>主要历史时段</strong>：匈牙利1960—1978年的可比经济指标；背景回溯至1950年代，必要时讨论1980年代。<br />
+<strong>HSM参考快照</strong>：2026-10-26核对 <a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/tree/main"><code>swjn2017USTC/hungary-socialist-mechanism-lab</code></a> <code>main</code>，HEAD <a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/commit/8614b5d765a1fbb9a135edb270efa650fbf2a420"><code>8614b5d765a1fbb9a135edb270efa650fbf2a420</code></a>。本讲审阅公开代码、配置、数据注册和研究报告；<strong>没有重新运行116季度模型，未访问 Git 忽略的 <code>outputs/</code> 或受限原始资料</strong>。报告数字为仓库作者已公布的实验记录，不能冒充本文独立复核结果。<br />
+<strong>主要研究问题</strong>：一个已经修复明显程序错误、通过物量金融守恒检查、能够重复得到相同输出的经济模拟，为什么仍然可能与真实匈牙利经济史背道而驰？<br />
+<strong>证据标识</strong>：<code>[H]</code> 可核实的历史统计、制度材料或严肃历史研究；<code>[T]</code> 理论和方法论；<code>[C]</code> 可检查的代码、配置或数据规范；<code>[S]</code> 仓库所报告的模拟运行结果；<code>[E]</code> 本讲另构造的教学数字；<code>[I]</code> 作者的解释性推断。各类证据不能相互冒充。<br />
+<strong>边界说明</strong>：本讲不把P06的失败判给“社会主义经济”的历史表现，也不认为历史模型必须逐年与官方指标完全相等；它首先审查<strong>特定模型、特定观测、特定时间窗</strong>是否建立了相称的解释关系。历史拟合、参数识别与反事实因果检验将在第27讲继续区分。</p>
+</blockquote>
+<hr />
+<h2 id="本讲最重要的20">本讲最重要的20%</h2>
+<p><strong>第一，一份模拟有五种性质不同的“正确”，不能因为前一种成立，就默认后一种成立。</strong>程序按照设定规则执行（软件验证），物量和货币账目彼此闭合（核算约束），同一运行身份得到同样输出（可复现），输出与独立历史观测在适当口径下吻合（历史拟合），最后才能进一步问哪些参数和因果机制真正受到资料约束（识别）。这种层级关系并非严格的数学蕴涵链：模型即使拟合，也可能是错误机制相互抵消；即使不拟合，仍可能是有价值的机制实验。决定研究质量的，是每一层到底获得了哪一种证据。[T]<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p><strong>第二，HSM 的P06失败既明确又巨大。</strong>在一个归一化为1960年等于100的比较中，基础F2历史复现的家庭消费模型指数从100降到1978年的<strong>42.36</strong>，对应KSH家庭实际最终消费总量目标指数从100上升到<strong>216</strong>。1961—1978共18个有信息的年度，<strong>全部</strong>超出预先固定的0.5指数点容差；报告的平均绝对残差为<strong>91.7414指数点</strong>。加入声明的外贸渠道以后，消费轨迹也没有恢复，C1版本1978年模型指数只有约<strong>1.322</strong>，18/18年仍失配。这是对“当前模型可复现相应历史消费轨迹”的直接否证，却不是对匈牙利实际福利变化的发现。[S]<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p><strong>第三，先核对口径，再谈失配有多大。</strong>KSH另有一列“人均消费指数”，1978年为<strong>202</strong>，而上述<strong>216</strong>来自国民账户中的“家庭实际最终消费总量”指数。两者都真实，但不是同一变量；同年的“人均实际收入”恰巧也等于216，更容易误导只看单个数字的读者。即使更换合理的消费指标，模型一路下跌与史实长期上升的方向冲突仍然明显；但不经过变量一致性检验，就不能把所有误差都定性为行为机制失败。[H][I]<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a><a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<p><strong>第四，错误可能来自约束的相互作用，而不是“某个坏参数”。</strong>P05先后修复过服务流重复/漏记、零售交付超量、跨季度库存连续性等程序问题；然而账目修好以后，生产—运输—零售—家庭取得商品的循环仍有严重瓶颈。P06结构审查显示，简单增加信贷、改变投资分配次序、动用储蓄或削减计划目标，都没有在预先固定的条件下同时修复生产与消费；一些方案使结果更差，另一些造成银行准备金负数而必须拒绝。[C][S]<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a><a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<p><strong>第五，真正的失败报告，反而把下一轮研究要做什么规定得更清楚。</strong>应该先做历史变量与模型变量的crosswalk，再审查物理来源、运输路径、支付优先序、家庭实际可得性与出口财政支付约束，然后寻找独立微观资料约束关键规则。把容差放宽、使用目标数据反推初始化、在许多场景中挑“好看”的一条，或者把实验包<code>complete</code>当成历史<code>SUPPORTED</code>，都不构成进步。历史要求模型解释自身失配；模型不应要求历史配合它。[T][S][I]</p>
+<hr />
+<h2 id="一问题从哪里来1978年一张上升的匈牙利统计表遇到一条下降的模型曲线">一、问题从哪里来？1978年，一张上升的匈牙利统计表，遇到一条下降的模型曲线</h2>
+<h3 id="先回到真实历史改革后的居民消费究竟是在上升还是下降">1.1 先回到真实历史：改革后的居民消费究竟是在上升还是下降？</h3>
+<p>1968年1月，匈牙利开始实行<strong>新经济机制</strong>（New Economic Mechanism, NEM）。中央计划及国有制并未取消，但对企业直接指令、价格与利润调节、税收和银行信用的安排发生显著变化。对于当时的政策制定者，这场改革的意义是使一个已经工业化、同时保留国家对重要经济领域控制的社会，拥有更有效的日常协调工具。它不是一次把所有企业瞬间交给自由市场的革命。[H]<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a><a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></p>
+<p>在1960年代末至1970年代，匈牙利家庭逐渐拥有更多耐用品，商品零售、居住条件、合作社家庭副业以及居民闲暇消费的变化，都是卡达尔时代社会生活的重要组成部分。本书第12—16讲已经说明，这种生活水平政治既有工业发展和生产率的基础，也依赖补贴、进口、农副业与国家对价格的管理。它不是“所有商品从此不再短缺”的天堂，却更不是消费总量十几年持续塌陷的社会。[H]<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a><a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p>
+<p>1970年代国际条件变得困难。世界能源和原材料价格上升，匈牙利的贸易条件恶化；政府一度利用外部借款延缓国内调整。IMF后来整理的宏观研究记载，1974—1978年贸易条件恶化约20%，1973—1978年外债大幅增加；紧缩和增长放慢更明显地出现在1970年代末以后的调整中。这些困难并不等于1970年代家庭实际消费已经发生模型中那种长期断崖式下降。[H]<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a></p>
+<p>这里需要首先尊重统计的<strong>量纲与定义</strong>。匈牙利中央统计局（Központi Statisztikai Hivatal，KSH）的国民账户长时序表把1960年设为100：在“家庭实际最终消费”（<em>actual final consumption of households</em>，总量）的口径下，1968年为137、1973年为176、1978年为216。同一表中的GDP指数到1978年为265，<strong>不是</strong>消费指数；“最终消费合计”到1978年为223，也不是家庭那一列。[H]<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a></p>
+<p>由此可以建立一条非常保守、却十分坚实的历史判断：<strong>1960—1978年，KSH公布的家庭实际最终消费总量指数整体显著上升。</strong>它并不告诉我们所有家庭是否公平分享增长，也不排除个别耐用品排队、外汇商品稀缺或城乡差异。但若一个以“复现这一消费指标”为目标的模型持续下跌，其历史复现任务首先失败了。</p>
+<h3 id="特别容易错的一点1978年的216与202到底哪个才是消费">1.2 特别容易错的一点：1978年的216与202到底哪个才是消费？</h3>
+<p>KSH同时发表另一张表：《Long time series of real income and consumption per capita》。这张表的指标全部以<strong>人均</strong>口径计算，1978年“人均消费指数”为<strong>202</strong>；1978年“人均实际收入指数”是<strong>216</strong>。而国民账户另一张表中的“家庭实际最终消费<strong>总量</strong>指数”恰好也为<strong>216</strong>。因此，只引用“1978：216”却不注明表名、列名和人口口径，就已经构成不合格的历史计量。[H]<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a><a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a></p>
+<div class="table-wrap"><table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>KSH原表及指标</th>
+<th style="text-align: right;">1960</th>
+<th style="text-align: right;">1968</th>
+<th style="text-align: right;">1973</th>
+<th style="text-align: right;">1978</th>
+<th>能说明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>国民账户：家庭实际最终消费<strong>总量</strong>指数</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;"><strong>137</strong></td>
+<td style="text-align: right;"><strong>176</strong></td>
+<td style="text-align: right;"><strong>216</strong></td>
+<td>实际家庭消费总体量变化；P06所登记的消费TARGET与此逐年一致</td>
+</tr>
+<tr class="even">
+<td>人均消费指数</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">134</td>
+<td style="text-align: right;">168</td>
+<td style="text-align: right;"><strong>202</strong></td>
+<td>人均实际消费变化，不应直接混成总量</td>
+</tr>
+<tr class="odd">
+<td>人均实际收入指数</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">140</td>
+<td style="text-align: right;">179</td>
+<td style="text-align: right;"><strong>216</strong></td>
+<td>收入不是消费，即使数字巧合相同</td>
+</tr>
+<tr class="even">
+<td>GDP总量指数</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">150</td>
+<td style="text-align: right;">203</td>
+<td style="text-align: right;">265</td>
+<td>经济总产出，不是家庭消费</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>资料</strong>：KSH，STADAT《GDP, consumption and capital formation (1960–)》和《Real income and consumption per capita (1960–)》，均以1960=100；1960—1978属于表中所列历史区间。指标为KSH公布的历史序列，不是作者估计。[H]<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a><a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a></p>
+<p>这份对照并不意味着HSM的216用错了。相反，从1962年105、1968年137、1973年176、1978年216这一整组数值看，P06 <code>consumption</code> TARGET与KSH“家庭实际最终消费总量”一列相吻合。<strong>现在的问题不是“216这个数是假的”，而是模型里的<code>household_consumption</code>能不能被当作这个统计概念的充分对应物。</strong></p>
+<p>模型将若干商品组的家庭获得量汇总，再用模型本身1960年的水平标准化；统计局的实际最终消费包含特定国民账户定义及估价、加权处理。单看它们都叫“消费”，不足以保证对象相同。1995年以后国民账户方法有断点，本讲研究的1960—1978年不受该断点直接影响，但这恰好提醒我们：<strong>历史统计自身也有版本和制度定义。</strong>[H][C][I]</p>
+<h3 id="一个模型却给出了相反的世界">1.3 一个模型却给出了相反的世界</h3>
+<p>进入HSM的历史复现报告。它并不是声称“根据模型，真实匈牙利人在1978年只消费了1960年的42%”。报告实际说的是：<strong>在已声明的合成主体、生产网络、价格和调度规则下，模型自己的消费指标相对于模型自己的1960年跌到了42.36。</strong>再把这条曲线与KSH的216相比较，两者非常不一致。[S]<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a></p>
+<p>把这个结果想象成一次史学工作中的警报：你已经有一台能够连续运行116个季度的程序，也能为每一次资源移动出具账簿，还能把整个运行通过散列校验重新复制出来。可是当你问最朴素的问题——“它重现了这个国家1960至1978年家庭消费的方向吗？”——答案仍然是否定的。<strong>这正是本讲的历史现场。</strong></p>
+<p>接下来先不急着寻找一个“神奇参数”，而是将“模型正确”拆成不同层次。</p>
+<hr />
+<h2 id="二先把五种正确拆开程序会计复现拟合与识别不是一件事">二、先把五种“正确”拆开：程序、会计、复现、拟合与识别不是一件事</h2>
+<h3 id="第一层软件按写下的规则运行叫验证verification">2.1 第一层：软件按写下的规则运行，叫验证（verification）</h3>
+<p>经济模拟首先是一个程序。在软件工程意义上，<strong>验证</strong>要回答的是：“代码是否正确实现了我们规定的算法和规则？”例如：商品交付量不得超过已有库存；同一单位原材料不能在两个工厂被同时消耗；四个季度的结果能被按照预先约定的规则合成年指标；外贸美元账户不能未经规则授权变成国内福林。程序通过单元测试、属性测试和输入输出检查，说明它遵循了某些明确的内部合同。[T]<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a></p>
+<p>但仍有一个隐藏问题：<strong>合同本身可以是错的。</strong>假如模型规定银行先支付某类费用再支付工资，而且这个次序被准确编码；程序即使100%贯彻合同，也不意味着历史上的银行确实如此办理。就像法律条文不是社会现实，程序需求书也不是历史真理。</p>
+<h3 id="第二层账目闭合叫内部会计一致性">2.2 第二层：账目闭合，叫内部会计一致性</h3>
+<p>计划经济研究中最有用的一条思想是：每一件实物必须有来源和去处，每一笔货币支付都不能凭空消失。例如一个仓库期初存货10吨、本季运入8吨、运出12吨、损耗1吨，则期末必须是5吨。模型若算出6吨，说明记录遗漏或重复，<strong>不管“6吨”更像历史都必须先修账</strong>。</p>
+<p>银行也一样。贷款发放会同时改变资产与相应金融负债；还款、支付和准备金变动也必须完整入账。值得强调的是：会计恒等式无法决定人们为什么借贷，也无法决定国家是否愿意救助企业。它只是把不可能的记账排除掉。</p>
+<p>所以：<strong>物量/金融守恒是模型成为一个经济系统的最低资格，不是历史拟合成绩单。</strong>[T][C]<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a></p>
+<h3 id="第三层同一输入产生同一输出叫计算可复现">2.3 第三层：同一输入产生同一输出，叫计算可复现</h3>
+<p>研究者需要把代码版本、配置、种子（seed）、初始条件、数据文件hash、依赖以及最终运行digest保存下来。否则所谓模型“得到结论A”，很可能只是研究者换了电脑、修改了默认值、忘记保存新参数后的偶然结果。可复现研究把这样的偶然性压缩到可以追查的范围。[T]<a href="#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a></p>
+<p>但两次运行都产生错误的消费轨迹，只能证明<strong>错误可以稳定重现</strong>。这是研究纪律的胜利，却不是历史解释的成功。HSM在H6B阶段完成的部分工作，主要属于这种工程与研究包审计层面。[S]<a href="#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a></p>
+<h3 id="第四层输出与历史观测吻合才谈得上历史拟合">2.4 第四层：输出与历史观测吻合，才谈得上历史拟合</h3>
+<p>“拟合”（historical fit）不是把任意两条曲线画在一张图上。至少要保证：所测是同一个概念，时段和频率相同，单位一致或经过可说明的变换，统计口径足够接近，历史资料没有偷偷成为模型希望“预测”的答案。</p>
+<p>即使拟合得好，仍有两种可能：模型真抓到了机制，或者许多错误相互抵消、某些自由参数被调到恰好吻合。Sargent区分概念模型有效性、数据有效性、模型实现的验证和运行结果的有效性，正是要避免“拟合一条线就能证明模型”的误解。[T]<a href="#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a></p>
+<p>反过来，拟合很差也不代表模型完全没有用途：一个简化实验仍可能清楚显示“财务救助会改变订单激励”的条件关系。但它已经没有资格宣称自己成功解释了<strong>这段真实历史的数量轨迹</strong>。</p>
+<h3 id="第五层哪些原因真能由历史资料区分叫参数或结构识别">2.5 第五层：哪些原因真能由历史资料区分，叫参数或结构识别</h3>
+<p>模型里可能有“企业囤积原料倾向”“中央救助预期”“外部进口需求”“政治信息延迟”等参数。如果许多不同参数组合都能使同一条GDP或消费曲线变得相近，那么只靠宏观曲线就无法知道历史上到底是哪一组机制在起作用。<strong>这是识别（identification）问题，不是求解器能否算完的问题。</strong></p>
+<p>一个模型即使观测拟合良好，也未必识别出企业的真实心理或制度权力。若拟合尚未通过，再把未知参数统称为“经过校准”就更不适当。HSM公开研究合同中<code>calibrated = 0</code>、6个行为块<code>UNIDENTIFIED</code>，因此不应宣布已经对匈牙利政治联盟、信息或行为系数做出了历史估计。[C][S]<a href="#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a></p>
+<p>将五层放在一张表中最清楚：</p>
+<div class="table-wrap"><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>问题</th>
+<th>应看到的证据</th>
+<th>即使通过，仍不能推出</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>① 程序是否按设定运行</td>
+<td>测试、异常处理、算法实现检查</td>
+<td>设定规则符合历史</td>
+</tr>
+<tr class="even">
+<td>② 账本是否一致</td>
+<td>逐商品、逐账户守恒与余额检查</td>
+<td>真实生产水平或工资已复现</td>
+</tr>
+<tr class="odd">
+<td>③ 结果是否可重放</td>
+<td>版本、seed、hash、checkpoint、digest</td>
+<td>输出与KSH一致</td>
+</tr>
+<tr class="even">
+<td>④ 历史变量是否拟合</td>
+<td>可比口径、时间窗、误差表、独立史料</td>
+<td>一种机制独占解释权</td>
+</tr>
+<tr class="odd">
+<td>⑤ 机制是否可识别</td>
+<td>独立观测、可区分预测、反事实设计与误差模型</td>
+<td>无条件普适的历史规律</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些检查不是在形式上互相证明的阶梯，而是五种不同的<strong>认识论门槛</strong>。尤其不应把最后两层混同：历史拟合不等于机制识别，机制结构实验通过也不等于历史拟合。[T]<a href="#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a></p>
+<hr />
+<h2 id="三一次真实的软件修复史p05为什么先修好了账本却没有修好经济">三、一次真实的软件修复史：P05为什么先修好了账本，却没有修好经济？</h2>
+<h3 id="最早的问题不是历史解释失败而是账目自己打架">3.1 最早的问题不是“历史解释失败”，而是账目自己打架</h3>
+<p>HSM的P05阶段把F2模型扩展为16个商品组，并建立生产、配送、服务与金融流程。相比只有八个合成商品的F1，F2能表达更多商品属性，却也产生更多守恒边界：电力和服务不能像库存零部件一样跨期留存，居民零售取得商品是离开库存系统的“终端用途”，而仓储与中转又会创造多条物量账。[C]<a href="#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a></p>
+<p><code>P05_REPORT.md</code>记录了一段值得经济史家和程序员同时学习的修复过程。最初F2内核在1957年第4季度的服务到期核算上失败。调查发现，<strong>原始库存平衡残差是零，但一个裁剪负的理论期末库存的操作，制造了约327.85的表面残差</strong>。团队继续检查：同季度服务被记到消费方的投入单元，却从生产方产出单元扣除；家庭获得的商品作为边界流出没有完整计入；F2有三类不能储存的服务商品，旧规则却只按一类处理；零售服务有时交付超过可用库存。[C]<a href="#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a></p>
+<p>这类错误与“国家为何短缺”完全不是一个层次。<strong>程序中某条商品从哪个库存格扣除，必须先回答；否则我们连系统是否制造了凭空物资都不知道。</strong>报告还记录，某项命令行配置错误地把F2的组织配置族替换为P02配置，导致初始参数不一致。这样的瑕疵如果不先发现，任何政治经济学解释都会建立在程序错账上。</p>
+<h3 id="修复是必要的但不是充分的">3.2 修复是必要的，但不是充分的</h3>
+<p>经过连续修正，F2正式运行可以完成1957Q1—1985Q4的116个季度，且守恒审查可通过；然而专门针对F2经济闭环进行的审查依然报告<code>status: collapsed</code>，同时一些一般性线性规划可行指标并未失败。换言之，<strong>局部数学可行、程序完成季度和经济循环可持续运转不是同一命题。</strong>[S]<a href="#fn29" class="footnote-ref" id="fnref29" role="doc-noteref"><sup>29</sup></a></p>
+<p>为什么？因为一条原材料可以理论上存在于全国库存，企业可以收到银行授信，计划中也可以计算出产能，却仍可能缺乏把投入品运输到该企业的路线、缺少同季度运输服务、零售支付被截断，或需要交付给家庭的服务早已在结算时过期。单个约束看似都没有“把GDP归零”，组合起来却可能断开再生产回路。[I]</p>
+<p>可把这个机制画成一个循环：</p>
+<pre class="text"><code>下季度生产目标与企业原料申请
+        ↓
+仓储可供货物 → 运输和装卸能力 → 有效付款、银行清算
+        ↓                    ↓
+投入品实际交付 ───────→ 企业实际生产
+        ↓                    ↓
+工资和成品供给             批发、零售配送
+        └─────────→ 家庭真正获得的商品
+                              ↓
+                 下一季需求、库存、现金与政策反馈</code></pre>
+<p>循环中的某一道门无法持续通过，后面的节点会受到影响。即使资金流完全记对，<strong>账本可以在持续萎缩的系统里保持守恒</strong>。这不是经济学的悖论，只是守恒规律从不保证增长或人民福利。</p>
+<h3 id="当程序错误修好后应该从找bug切换到找错误的世界假设">3.3 当程序错误修好后，应该从“找bug”切换到“找错误的世界假设”</h3>
+<p>在建模研究里经常会出现一段危险时期：错误减少、测试数量快速增加、CI通过、报告越来越整齐，于是研究者心理上开始相信“我们差不多建立了现实”。但程序修复只说明在<strong>这套假设的世界</strong>中核算越来越自洽。真正接下来的问题是：货流规则是否过于僵硬？货运能力的单位与真实规模有没有对应？工资、物资、进口的时间次序是否符合国家制度？家庭消费篮子是否涵盖真实消费统计中的重要服务？国家财政是否真的在模型描述的节点上现金枯竭？[I]</p>
+<p>这类问题需要从仓库返回史料，从宏观曲线返回企业、银行、商品与地方流通的具体记录。单纯增加测试，只能反复确认同一套可能错置的结构。</p>
+<hr />
+<h2 id="四p06的消费复现失败怎样从19行数据看出一个结构问题">四、P06的消费复现失败：怎样从19行数据看出一个结构问题？</h2>
+<h3 id="先还原研究合同而不是先看漂亮曲线">4.1 先还原研究合同，而不是先看漂亮曲线</h3>
+<p>P06把1960—1969称为<code>calibration</code>窗口，把1970—1978称为<code>internal_validation</code>窗口；<strong>但目录名称是窗口分组，绝不表示已经成功校准或验证。</strong>HSM研究合约仍写明没有历史参数识别。1957—1985的116季度是正式运行窗口；1986Q1—1988Q4属于保留窗口，不能偷用它挑参数。KSH的目标数据（TARGET）只用于比较，没有回灌进运行时需求与初始化。[C]<a href="#fn30" class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a><a href="#fn31" class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a></p>
+<p>比较时先把<strong>模型自己的1960年值归一化为100</strong>，再与同基期历史指数比较。这个操作只消除了量纲，不能把模型校准到KSH的历史水平。1960年两者都等于100是定义的结果，所以<code>informative: false</code>：<strong>起点重合不算解释成功一次。</strong>[C][S]<a href="#fn32" class="footnote-ref" id="fnref32" role="doc-noteref"><sup>32</sup></a></p>
+<p>模型的基准场景是<code>historical_f2_replay</code>（下称C0）；P06又构造了<code>historical_f2_trade_scenario</code>（下称C1），通过有来源记录的合成外贸需求向量向引擎输入外贸冲击，用来检查进口和出口通道能否传导。<strong>C1不是另一个更真实的匈牙利历史数据集，也不是校准成功后的版本。</strong>[C][S]<a href="#fn33" class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a></p>
+<h3 id="两条相反的曲线摘取关键年份">4.2 两条相反的曲线：摘取关键年份</h3>
+<div class="table-wrap"><table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 22%" />
+<col style="width: 22%" />
+<col style="width: 22%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>年份</th>
+<th style="text-align: right;">KSH家庭消费总量TARGET</th>
+<th style="text-align: right;">C0：F2基础模型指数</th>
+<th style="text-align: right;">C1：F2加入外贸需求后的模型指数</th>
+<th>阅读意义</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1960</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">100.00</td>
+<td style="text-align: right;">100.000</td>
+<td>三者以定义方式归一，不提供拟合信息</td>
+</tr>
+<tr class="even">
+<td>1961</td>
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">99.26</td>
+<td style="text-align: right;">87.040</td>
+<td>C0偏差已超容差</td>
+</tr>
+<tr class="odd">
+<td>1962</td>
+<td style="text-align: right;">105</td>
+<td style="text-align: right;">69.85</td>
+<td style="text-align: right;">48.830</td>
+<td>两种模型均出现迅速下降</td>
+</tr>
+<tr class="even">
+<td>1965</td>
+<td style="text-align: right;">118</td>
+<td style="text-align: right;">65.27</td>
+<td style="text-align: right;">43.960</td>
+<td>居民消费增长的历史方向没有复现</td>
+</tr>
+<tr class="odd">
+<td>1968</td>
+<td style="text-align: right;">137</td>
+<td style="text-align: right;">56.55</td>
+<td style="text-align: right;">29.892</td>
+<td>历史改革当年，两种模型仍下降</td>
+</tr>
+<tr class="even">
+<td>1970</td>
+<td style="text-align: right;">155</td>
+<td style="text-align: right;">50.60</td>
+<td style="text-align: right;">18.444</td>
+<td>错误不断累积</td>
+</tr>
+<tr class="odd">
+<td>1973</td>
+<td style="text-align: right;">176</td>
+<td style="text-align: right;">45.08</td>
+<td style="text-align: right;">8.996</td>
+<td>不是只有外部冲击时才失配</td>
+</tr>
+<tr class="even">
+<td>1975</td>
+<td style="text-align: right;">196</td>
+<td style="text-align: right;">44.32</td>
+<td style="text-align: right;">3.239</td>
+<td>加入外贸场景也没有消除崩塌</td>
+</tr>
+<tr class="odd">
+<td>1978</td>
+<td style="text-align: right;"><strong>216</strong></td>
+<td style="text-align: right;"><strong>42.36</strong></td>
+<td style="text-align: right;"><strong>1.322</strong></td>
+<td>方向与数量级均严重不符</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>数据及口径</strong>：KSH STADAT 1960=100，<em>actual final consumption of households</em>（实际最终消费总量指数）；C0模型、C1模型来自HSM公开<code>P06_FINAL_REPORT.md</code>§“First result”和<code>P06_RUN_REPORT.md</code>§“Plan C”，均为<strong>模型自身1960=100</strong>的报告数；本表只摘取其中九年，并未执行新模拟。C0与C1值不可当作历史消费量或福林金额。1960年之外的年度容差固定0.5指数点。[H][S]<a href="#fn34" class="footnote-ref" id="fnref34" role="doc-noteref"><sup>34</sup></a><a href="#fn35" class="footnote-ref" id="fnref35" role="doc-noteref"><sup>35</sup></a><a href="#fn36" class="footnote-ref" id="fnref36" role="doc-noteref"><sup>36</sup></a></p>
+<p>注意，图像甚至有可能欺骗读者。如果把C0画在一张右纵轴、把KSH画在左纵轴，两条线都能显得“比较平滑”；如果只画1973年前后某种政策差值，还能找到许多引人注目的改善。然而本讲的第一问题不是政策场景之间差多少，而是<strong>这台机器产生的基准世界是不是研究者原本要解释的那个匈牙利。</strong>答案显然是否定的。[I]</p>
+<h3 id="平均绝对误差mae究竟说明什么">4.3 平均绝对误差（MAE）究竟说明什么？</h3>
+<p>按报告，C0消费指数在1961—1978年的<strong>平均绝对残差（mean absolute error, MAE）为91.7414指数点</strong>，最大绝对残差约173.636；C1对应的MAE为<strong>120.2651</strong>，最大约214.678。计算时应排除1960年这个归一化必等的起点。这些是<strong>指数点</strong>，不是“家庭福利下降91%”或“GDP误差91%”。[S]<a href="#fn37" class="footnote-ref" id="fnref37" role="doc-noteref"><sup>37</sup></a><a href="#fn38" class="footnote-ref" id="fnref38" role="doc-noteref"><sup>38</sup></a></p>
+<p>MAE越大，意味着在这一目标和这一时间窗下，模型与观测越不接近；但它还不能告知是哪条程序规则导致误差。一个模型可能在1961年略错、此后持续偏离；也可能每年在两侧交替偏离，绝对误差接近，经济原因却非常不同。因而除了一个平均值，还应看<strong>方向、发生时点、误差是否随时间积累、不同指标是否同步失配</strong>。</p>
+<p>P06另一重要发现是：C1进口通道能实现声明的合成需求，模型进口指数几乎平坦在100，而已准入的贸易进口目标在1978年达到<strong>503</strong>（同样以1960=100）。报告的进口MAE约159.4211指数点，18/18年超容差。这个结果的含义不是“匈牙利没有扩大进口”，而是模型将一组相对固定的合成进口请求作为运行输入时，无法自动产生历史中的进口扩张轨迹。[S]<a href="#fn39" class="footnote-ref" id="fnref39" role="doc-noteref"><sup>39</sup></a></p>
+<p>同时还要保留方法上的不对称：P06以声明行政价格加权的模型商品组进口总量去对照KSH进口<strong>物量指数</strong>，两边权重、商品构成和价格基期不完全相同。这样的<code>normalized_index</code>对照可以作为<strong>粗粒度方向性警报</strong>，却不是同口径的、可直接解释福利的精确测量。[C]<a href="#fn40" class="footnote-ref" id="fnref40" role="doc-noteref"><sup>40</sup></a></p>
+<h3 id="真实的crosswalk是允许很多指标不可以比较">4.4 真实的crosswalk，是允许很多指标“不可以比较”</h3>
+<p>P06注册的14个历史变量，经过最终C1通道分析后的分类是：<strong>2个映射为归一化指数（家庭消费与进口）、1个阻断（出口）、11个<code>no_counterpart</code>（模型无合格对应项）</strong>。在较早的C0“零贸易”对照中，进口和出口因为1960基期都为零，甚至没有合法的模型自有基期，无法作指数归一化。因此仓库<code>P06_FINAL_REPORT.md</code>有一段针对该零贸易/扩大映射早期阶段的“1 mapped / 13 no_counterpart”文字，而<code>config/calibration/p06_reproduction_crosswalk.json</code>和<code>P06_RUN_REPORT.md</code>反映C1后阶段的“2 mapped / 1 blocked / 11 no_counterpart”；<strong>这是不同报告阶段和情景口径，不能拿一段旧文字覆盖后来的具体crosswalk。</strong>[C]<a href="#fn41" class="footnote-ref" id="fnref41" role="doc-noteref"><sup>41</sup></a><a href="#fn42" class="footnote-ref" id="fnref42" role="doc-noteref"><sup>42</sup></a><a href="#fn43" class="footnote-ref" id="fnref43" role="doc-noteref"><sup>43</sup></a></p>
+<p>为什么连工业钢材、电视机、小麦都不能直接比？F2的农业只有一个宽泛的<code>g08_agricultural_raw</code>组，没有真实小麦、玉米、谷物三个分别可观测的产出序列；基本金属与机器资本的商品组也不能充当实际历史粗钢或机床产量。模型里没有同口径的GDP、加权工业生产指数以及固定资本形成变量。<strong>把所有物量简单相加，不是GDP；把资本品产出叫“投资”，也不是国民账户的资本形成。</strong>[C]<a href="#fn44" class="footnote-ref" id="fnref44" role="doc-noteref"><sup>44</sup></a></p>
+<p>一份可信的交叉映射报告，应该宁愿承认“多数指标现在不可比较”，也不能为了提高历史拟合的展示面积而虚构分解比例。否则你会得到很多“模型吻合史实”的漂亮数据点，却没有任何稳固解释。</p>
+<hr />
+<h2 id="五一次能手算的经济小实验完美的守恒账怎样产生错误的历史">五、一次能手算的经济小实验：完美的守恒账，怎样产生错误的历史？</h2>
+<h3 id="两间商店同样的库存账一间能服务居民一间却不行">5.1 两间商店、同样的库存账，一间能服务居民，一间却不行</h3>
+<p>以下数字<strong>完全为教学构造 [E]，不是匈牙利或HSM报告中的观测</strong>。</p>
+<p>假设一家地方零售仓库年初有100单位商品，本年收到供应商200单位，商品损耗10单位，卖给家庭150单位，于是年末应剩140单位。另一个“模型仓库”有同样100单位期初库存，却只收到供应商100单位，损耗10单位，卖给家庭70单位，年末应剩120单位。两个仓库都满足物量平衡：</p>
+<ul>
+<li><strong>现实风格仓库</strong>：100＋200－10－150＝140；</li>
+<li><strong>模型风格仓库</strong>：100＋100－10－70＝120。</li>
+</ul>
+<p>两个账簿都<strong>完全正确</strong>。但它们居民购买得到的商品相差80单位。任何一种守恒算法都不会自动告诉你“应当收到多少货”。第二间仓库卖得少，可能是货源不足，也可能是采购行为错误，可能是银行无法付款，也可能是运输线路没有通达。<strong>正确的算术无法替代正确的世界机制。</strong></p>
+<h3 id="把两条曲线归一到同一基期">5.2 把两条曲线归一到同一基期</h3>
+<p>再给一个四年简化例子：真实家庭消费量分别为100、110、120、130，模型却分别给出100、105、105、105。取第一年为100以后，仍得到如下对照：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>年份</th>
+<th style="text-align: right;">真实指数</th>
+<th style="text-align: right;">模型指数</th>
+<th style="text-align: right;">模型－真实</th>
+<th style="text-align: right;">绝对误差</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>第一年</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0（无信息的基期）</td>
+</tr>
+<tr class="even">
+<td>第二年</td>
+<td style="text-align: right;">110</td>
+<td style="text-align: right;">105</td>
+<td style="text-align: right;">−5</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td>第三年</td>
+<td style="text-align: right;">120</td>
+<td style="text-align: right;">105</td>
+<td style="text-align: right;">−15</td>
+<td style="text-align: right;">15</td>
+</tr>
+<tr class="even">
+<td>第四年</td>
+<td style="text-align: right;">130</td>
+<td style="text-align: right;">105</td>
+<td style="text-align: right;">−25</td>
+<td style="text-align: right;">25</td>
+</tr>
+</tbody>
+</table></div>
+<p>定义误差并计算模型MAE，只需要一组等式：</p>
+<p><span class="math display">\[
+I_t^{M}=100\frac{Q_t^{M}}{Q_0^{M}},\qquad e_t=I_t^{M}-I_t^{H},\qquad \operatorname{MAE}=\frac{1}{n}\sum_{t=1}^{n}|e_t|.
+\]</span></p>
+<p>这里，<span class="math inline">\(Q_t^M\)</span>是模型某年的实际输出，<span class="math inline">\(Q_0^M\)</span>是它<strong>自己</strong>的基期值；<span class="math inline">\(I_t^H\)</span>是有定义且独立于模型的历史指数；<span class="math inline">\(n\)</span>为不包括基期的有效年份数。这个例子的MAE是<span class="math inline">\((5+15+25)/3=15\)</span>指数点。如果把第一年的零误差也算进去，平均值会下降到11.25，却没有增添任何解释能力。[E]</p>
+<p>把模型每年的原始数量都乘10，不改变归一化指数；改变纵轴范围，也不改变实质性误差。因此<strong>“归一后基期吻合”只是定义；“在其他年份吻合”才可能是模型表现</strong>。</p>
+<h3 id="同一消费结果可能来自完全不同的经济机制">5.3 同一消费结果，可能来自完全不同的经济机制</h3>
+<p>让模型最后都只卖出70单位商品，可以设想两种机制：[E]</p>
+<ul>
+<li><strong>机制A：实物缺货。</strong>仓库本来能付款，需求120单位，但物流只送来70单位，家庭最终只能买到70。</li>
+<li><strong>机制B：现金受限。</strong>仓库实际上能交付120单位，但家庭和零售部门有效支付能力只够买70，于是成交也只有70。</li>
+</ul>
+<p>如果研究者只看“家庭获得70单位”这一条宏观曲线，它<strong>无法区分A和B</strong>。解决办法不是再拟合一次消费曲线，而是增加可观测指标：运输发货记录、库存位置、企业订货与交货率、银行支付凭证、家庭未满足需求、货物过期或滞销数量。这些额外变量会使两种机制产生不同预测。</p>
+<p>这就是“从拟合走向识别”的第一步：<strong>寻找能够让竞争解释分叉的观测，而不是只寻找使结果看起来靠近历史的参数。</strong></p>
+<h3 id="这个小实验不能证明什么">5.4 这个小实验不能证明什么？</h3>
+<p>上面的货仓故事既没有展示匈牙利真实家庭的偏好，也没模拟国家补贴、家庭副业、进口和投资。它只证明一个逻辑事实：<strong>守恒和拟合是不同要求；单一宏观输出无法自动识别供给与支付机制。</strong>第27讲还要在多参数、多情景下研究这个识别问题。</p>
+<hr />
+<h2 id="六与hsm直接对接消费崩塌和出口受阻发生在什么机制环节">六、与HSM直接对接：消费崩塌和出口受阻，发生在什么机制环节？</h2>
+<h3 id="第一条断链有全国可用资源不等于家庭最后获得商品">6.1 第一条断链：有全国可用资源，不等于家庭最后获得商品</h3>
+<p>F2的生产与流通系统通过<code>src/hsm_lab/engine/network.py</code>编译库存格、稀疏投入矩阵、地区线路和需求格；<code>material.py</code>规定季度内的严格顺序：生产目标、服务分配、订货与国内融资、贸易、两轮物资分配、受现金和运输门槛约束的配送、实际生产、家庭获得商品以及季末结算。[C]<a href="#fn45" class="footnote-ref" id="fnref45" role="doc-noteref"><sup>45</sup></a></p>
+<p>这条顺序对于排除“同一季度使用未来收入支付过去订单”一类错误是必要的；但是，一个地区的居民要获得商品，必须经过若干层连续的可交付条件。某个中间条件特别严苛，就可能在账本仍然完全正确时，使最终消费对产出变化不敏感。<strong>即使全国生产指标提高，家庭真正买到的东西仍可能不增。</strong></p>
+<p>P06的冻结结构性门槛显示基础F2模型仍然存在严重问题：[S]<a href="#fn46" class="footnote-ref" id="fnref46" role="doc-noteref"><sup>46</sup></a></p>
+<div class="table-wrap"><table>
+<thead>
+<tr class="header">
+<th>诊断</th>
+<th style="text-align: right;">模型报告值</th>
+<th style="text-align: right;">预定门槛</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>运行“活性”（liveness）</td>
+<td style="text-align: right;">0.1116</td>
+<td style="text-align: right;">≥0.8</td>
+<td>未过</td>
+</tr>
+<tr class="even">
+<td>三类服务中g03交付／资金比</td>
+<td style="text-align: right;">0.489</td>
+<td style="text-align: right;">≥0.9</td>
+<td>未过</td>
+</tr>
+<tr class="odd">
+<td>g15交付／资金比</td>
+<td style="text-align: right;">0.120</td>
+<td style="text-align: right;">≥0.9</td>
+<td>未过</td>
+</tr>
+<tr class="even">
+<td>g16交付／资金比</td>
+<td style="text-align: right;">0.199</td>
+<td style="text-align: right;">≥0.9</td>
+<td>未过</td>
+</tr>
+<tr class="odd">
+<td>季末过期服务份额</td>
+<td style="text-align: right;">约0.94</td>
+<td style="text-align: right;">≤0.20</td>
+<td>未过</td>
+</tr>
+<tr class="even">
+<td>末十季度产量均值T1</td>
+<td style="text-align: right;">约28,074模型单位</td>
+<td style="text-align: right;">≥35,092</td>
+<td>未过</td>
+</tr>
+<tr class="odd">
+<td>末十季度家庭消费均值T2</td>
+<td style="text-align: right;">约1,668模型单位</td>
+<td style="text-align: right;">≥2,085</td>
+<td>未过</td>
+</tr>
+<tr class="even">
+<td>物量与金融核算</td>
+<td style="text-align: right;">PASS</td>
+<td style="text-align: right;">核算守恒</td>
+<td><strong>通过</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>上表是仓库内部<strong>工程阈值和模型单位</strong>，不是历史KSH统计；liveness也不是“匈牙利经济只有11.16%活着”这一荒谬命题。它告诉我们：这套模型在所设计的内部闭环标准上未通过，因而更不宜跳过中间机制直接解释国家经济史。</p>
+<h3 id="第二条断链改变一个政策参数不一定改变真正的瓶颈">6.2 第二条断链：改变一个政策参数，不一定改变真正的瓶颈</h3>
+<p>P06做过单因素扰动（one-at-a-time，OAT）。例如，把<code>bailout_envelope_fraction</code>在0.2、0.25、0.3之间调整，或改变部分装卸工作参数，三种seed报告的末十季度产量与消费几乎没有相应变化；而改变<code>service_split</code>几个比例，却引起较大的产量和家庭消费变化，有的分配方式令产量较高、家庭消费反而较低。[S]<a href="#fn47" class="footnote-ref" id="fnref47" role="doc-noteref"><sup>47</sup></a></p>
+<p>这至少存在四类不同解释：[I]</p>
+<ol type="1">
+<li><strong>参数没有进入目标通道</strong>：例如改的是账簿允许的救助额度，实际并无足够企业触发救助。</li>
+<li><strong>有改动但后面被更紧的门槛截断</strong>：授信增加，运输仍不够，实际消费自然不升。</li>
+<li><strong>系统处于饱和或阈值区域</strong>：在某个参数范围内，输出不变；一旦跨越关键阈值才剧烈变化。</li>
+<li><strong>被观测指标遗漏</strong>：企业库存、价格或内部支付结构改变了，但选出的末期总产量不敏感。</li>
+</ol>
+<p>不能因为政策扰动“看起来不起作用”，就推出真实匈牙利的信贷、投资或奖金制度没有作用；反过来也不能因为模型中服务比例变化很敏感，就说“历史上服务配置才是危机的唯一根源”。那些只是<strong>冻结规则下的条件性结构反应</strong>。</p>
+<h3 id="第三条断链外贸有货可买却未必有可持续的支付回路">6.3 第三条断链：外贸有货可买，却未必有可持续的支付回路</h3>
+<p>P06的C1实验专门加入外贸向量。该向量取自仓库预先声明的P04合成外部信号与外贸配方，而不是拿KSH贸易目标逆推进口量；由于合成信号没有历史商品构成，它采用近似“等行政价格金额”的商品组篮子，不能冒称1970年代的实际进出口结构。C1从1957Q1跑到1985Q4，共116个季度，seed为1729，外贸场景的报告digest可以追踪。[C][S]<a href="#fn48" class="footnote-ref" id="fnref48" role="doc-noteref"><sup>48</sup></a></p>
+<p>结论非常有教育意义：<strong>进口可以按所声明的请求传入，出口却因Treasury可支付资金而持续受约束。</strong><code>P06_RUN_REPORT.md</code>说，C1进口需求在15个有进口安排的商品组里全部获得兑现；但出口只有约9.8645%的累计声明需求真正实现，Treasury现金在1961Q2触底，出口出现零流量的季度，并在此后多年难以维持。C2提高工资因子的“刀刃”检查没有修复这一问题，反而令累计出口减少。[S]<a href="#fn49" class="footnote-ref" id="fnref49" role="doc-noteref"><sup>49</sup></a></p>
+<p>这里存在两个特别重要的区分。</p>
+<p>第一，<strong>有出口需求不等于有已履行出口合同</strong>。出口商品须从国内供应源实际采购和交付；模型规定Treasury须拿出国内可支付资金，因而“国外愿意买”并不自动产生出口。究竟历史上的匈牙利出口融资、银行清算和行政结算是否完全遵从这种现金门槛，是另一项需要档案和制度资料才能回答的问题。[C][I]</p>
+<p>第二，<strong>模型的可兑换外汇路径与经互会清算路径不能随便相加成一个没有汇兑约束的共同钱包</strong>。这一点第17—18讲已经详细讨论。模型将CMEA与可兑换货币渠道分开，是很有价值的工程约束；但合成规则是否正确拟合匈牙利外贸金融制度，又不能仅凭“分开记账”获得保证。[H][C][I]</p>
+<p>即使P06的C1贸易场景能让部分进口和出口变化真实进入账本，<strong>消费指数仍在1978年低至1.322</strong>。这表明单纯“让国际贸易通道存在”尚未建立接近史实的居民消费闭环。不能将它解释成“外贸使真实匈牙利更穷”；C0与C1不是严格控制其他结构、只改变一个历史变量的因果估计。[S]<a href="#fn50" class="footnote-ref" id="fnref50" role="doc-noteref"><sup>50</sup></a></p>
+<h3 id="第四条断链局部补丁改善一侧却破坏另一侧">6.4 第四条断链：局部补丁改善一侧，却破坏另一侧</h3>
+<p>在P06的结构审查中，研究者将候选修复分成A1—A4等路径：调整投入品信贷、利息/财政回流、改变物资来源与投资优先次序、让储蓄重新进入消费、或者削减非储存商品的计划需求。结果中没有一个合法情景同时达到预先设定的产量和家庭消费终端门槛。[S]<a href="#fn51" class="footnote-ref" id="fnref51" role="doc-noteref"><sup>51</sup></a></p>
+<p>几个具体例子特别值得记住：</p>
+<ul>
+<li>把投资放在优先位置，会在某些局部网络指标上带来微小改善，却使模型家庭消费和未满足需求显著恶化。</li>
+<li>试图将家庭储蓄更多转为实际购买，在实物可得性既已受限的条件下，并没有产生相应的商品交付改善；多出来的购买意愿可能只是无货可买。</li>
+<li>通过改变利息流向尝试补足财政/金融回路，有的路径引发<strong>银行准备金为负</strong>，因而被核算合同拒绝；这些运行不能拿后续数字当作有效经济结果。</li>
+<li>只对财政账户注资，可能保护国库现金余额，却同时使家庭获得商品减少，违背预定的家庭保障规则。<strong>救活一个账户不等于救活社会再生产。</strong></li>
+</ul>
+<p>这类结果没有证明“所有财政补贴必然无效”“所有投资改革一定有害”；它说明对<strong>这一个合成模型及其冻结规则</strong>，简单的一维修补并不能保证多目标闭环成立。相对于继续找一个“最优参数”，更合理的下一步是重新审查<strong>货源、地区运输、订单履约、家庭现金与银行准备金</strong>之间的机制连接。[S][I]<a href="#fn52" class="footnote-ref" id="fnref52" role="doc-noteref"><sup>52</sup></a></p>
+<h3 id="h6b后来有什么进展又没有改变什么">6.5 H6B后来有什么进展，又没有改变什么？</h3>
+<p>到2026-10-26，HSM <code>main</code>的权威研究包是HIST_VNEXT H6B。公开<code>README.md</code>和<code>studies/HIST_VNEXT/packages/H6B/REPORT.md</code>报告11张机制卡，其中M01、M02、M04共3张通过<strong>研究包完整性</strong>合同，8张阻断，全部卡历史<code>SUPPORTED=0</code>，<code>calibrated=0</code>。这意味着实验入口、配对、首阶段、负对照、账本、指标与可重放性的一部分审计已取得进展，但<strong>没有历史因果参数因此被估计出来</strong>。[S]<a href="#fn53" class="footnote-ref" id="fnref53" role="doc-noteref"><sup>53</sup></a></p>
+<p>尤其M02的合成实验已在自身预设条件下出现证伪结果，M04显示容忍度改变能影响第二经济活动的合成首阶段，M09还有负对照阻断。这些结果重要，但都不构成“修复P06消费失配”的证据。H6B没有重新进行历史校准，也没有授权把已经失败的历史指数比较撤销。[S]<a href="#fn54" class="footnote-ref" id="fnref54" role="doc-noteref"><sup>54</sup></a></p>
+<p><strong>本讲研究状态更新说明</strong>：2026-10-25规程所记H6B基线，在本次<code>main</code>快照中仍有相同的主要结果。本讲核对了2026-10-26 HEAD和当前crosswalk：H6B 3 complete / 8 blocked / 历史SUPPORTED 0；P06 C0消费复现失败仍存在，C1外贸映射为2 mapped / 1 blocked / 11 no_counterpart。本文没有独立冷启动运行，不将仓库报告变成作者自己的验证声明。</p>
+<hr />
+<h2 id="七与苏联中国及其他东欧国家比较同一种模型失败可能意味着不同的历史遗漏">七、与苏联、中国及其他东欧国家比较：同一种模型失败，可能意味着不同的历史遗漏</h2>
+<h3 id="苏联计划动员的真实能力与长期激励问题都不能在一条错误曲线上解决">7.1 苏联：计划动员的真实能力与长期激励问题，都不能在一条错误曲线上解决</h3>
+<p>苏联式传统计划体制确实能通过物资集中调配、国家投资和组织能力实现大规模工业化；同时，多级指标谈判、企业囤积投入、部门割裂、质量和品种信息不足等问题也确实在学界有长期研究。二者并不互相排斥。第21讲已经讨论，粗放投资型增长与成熟工业经济的生产率增长，属于不同的解释任务。[H][T]<a href="#fn55" class="footnote-ref" id="fnref55" role="doc-noteref"><sup>55</sup></a></p>
+<p>假如将匈牙利F2模型直接套用苏联，却连国民账户核算和企业生产组织都没有重建，那么模型消费曲线失配并不能“证明苏联计划不行”，更不能估计戈尔巴乔夫改革的结果。历史对象变了，产业结构、农业部门、国防预算、贸易制度、统计方法也变了。<strong>理论相似性不等于参数可移植性。</strong>[I]</p>
+<h3 id="中国宏观改革成功不能被简化成匈牙利模型的一个更好参数">7.2 中国：宏观改革成功，不能被简化成匈牙利模型的一个“更好参数”</h3>
+<p>中国1978年后的农业家庭联产承包、乡镇企业发展、价格双轨制、地方政府财政激励，以及1990年代中央财政金融体系重建，改变的不只是某一个“企业自主度”。它们共同修改了资源配置、劳动与利润归属、地方投资以及外部市场嵌入方式。第23—24讲已说明，中国的人口结构、农村就业和国家规模，与匈牙利差异很大。[H][T]<a href="#fn56" class="footnote-ref" id="fnref56" role="doc-noteref"><sup>56</sup></a></p>
+<p>因此，哪怕未来能把HSM的某些政策参数调到使1978年消费指数靠近216，也不意味着这套调参方法能解释中国改革。中国的制度组合更接近多个中间机制同时变化的历史转型；如果观测不足，一个被硬凑到终点的模型只能制造“历史像是一个滑块”的错觉。[I]</p>
+<h3 id="波兰东德与南斯拉夫寻找真正可以比较的机制而不是相同的结局曲线">7.3 波兰、东德与南斯拉夫：寻找真正可以比较的机制，而不是相同的结局曲线</h3>
+<p>波兰1970、1976、1980年的价格和工资冲突，东德在地区与部门协调下的工业和消费政策，以及南斯拉夫企业自主管理与融资机制，各自有不同的政治—劳动组织基础。以这些国家为对照，最有价值的不是“所有国家都有短缺，因此统一机制已经被证明”，而是细问：<strong>面对相近的原材料涨价或外债压力，银行如何约束企业？企业能多快调整投资？劳动者如何表达反对？国家补贴怎样经过价格传到家庭？</strong>[H][T]<a href="#fn57" class="footnote-ref" id="fnref57" role="doc-noteref"><sup>57</sup></a></p>
+<p>比较历史要求保留差异。若模型把不同国家的商业银行、工会和财政安排统统简化为相同的拨款规则，那么它可能更容易运行、更容易画出跨国图，但真正有解释力的制度差异早已被删除。[I]</p>
+<hr />
+<h2 id="八学界争论反例与尚未解决的问题到底是参数不准还是整个模型设错了">八、学界争论、反例与尚未解决的问题：到底是参数不准，还是整个模型设错了？</h2>
+<h3 id="第一种解释数据口径和参数不佳需要更仔细的历史校准">8.1 第一种解释：数据口径和参数不佳，需要更仔细的历史校准</h3>
+<p>这一立场在原则上是合理的。实际最终消费包含统计上的数量、服务、居民群体与价格权重；F2把16类模型商品中的家庭获得量加总，连度量对象本身都未充分对齐。模型中的劳动效率、初始库存和商品配比又很多来自工程假设。只有先建立可比测量，才知道残差中的多少来自统计映射，而非制度动态。[T][C]</p>
+<p>它提出的补救方法包括：审查消费TARGET定义，建立家庭与商品的国民账户权重，改进初值与历史人口边界，核验年度与季度的换算；寻找能够约束生产投入系数、地方运输和工资消费支出的同期资料。<strong>但这条路有一道禁止跨越的底线：不能将KSH的目标指标直接拿来生成运行期需求或初始消费篮子，然后再声称模型“预测”了它。</strong>[C]<a href="#fn58" class="footnote-ref" id="fnref58" role="doc-noteref"><sup>58</sup></a><a href="#fn59" class="footnote-ref" id="fnref59" role="doc-noteref"><sup>59</sup></a></p>
+<p>什么时候“参数解释”会受反证？若多个独立数据源下，即使采取合理参数范围、正确的指数统计与人口权重，系统仍因物流或现金约束不可避免地进入崩塌，那么继续把失败归咎于“一两个估值还不够准”就不令人信服了。[I]</p>
+<h3 id="第二种解释结构错设关键循环不在模型里">8.2 第二种解释：结构错设，关键循环不在模型里</h3>
+<p>另一种解释认为问题比参数严重：即使所有数值都来自真实档案，模型的支付次序、服务到期、物资路由、企业管理权或国家外贸结算方式仍可能缺少某些重要中间环节。所谓<strong>结构错设（structural misspecification）</strong>，就是模型“世界如何运动”的规则与研究对象不匹配，或者某种决定性机制被遗漏。[T]</p>
+<p>HSM P06结构审查支持“现有约束组合在内部不能形成健康闭环”这一较弱结论，却<strong>尚未证明其中某一机制与历史制度不符</strong>。例如Treasury出口支付门槛可能是某种必要财务纪律的合理简化，也可能将真实出口信用、财政跨期垫付或结算安排压缩得过于刻板。要判断哪一种解释成立，必须到真实银行制度、企业外贸合同、贸易信贷和财政收支的历史资料中寻找对应记录，而不能用模型自己的崩塌去证明模型真实。[C][S][I]</p>
+<p>什么时候“结构解释”会受反证？如果取得可靠微观资料后发现那些被怀疑缺失的制度环节实际并不重要，而在保留原结构的条件下，一组独立估计的参数就能在多个历史变量和时段上同时获得稳定吻合，那么“必须重做整个模型”的主张就应收缩。[I]</p>
+<h3 id="第三种可能模型有用但问题问错了">8.3 第三种可能：模型有用，但问题问错了</h3>
+<p>还有一种更加克制的看法：研究者也许本来就没有足够资料去重建国家消费史，却有能力用这套程序检查一个具体制度命题——例如“增加企业授信是否总能解除投入瓶颈”“更早支付出口采购款会怎样改变财政清算”。<strong>如果把模型的目标从完整历史复现限定为合成条件下的机制实验，它仍可能是好工具。</strong>[T]</p>
+<p>但条件是必须公开改变的<strong>研究问题与证据等级</strong>，而不是在国家历史拟合失败以后，回头挑出某个局部敏感结果，宣布“我们原来就是为了说明这个”。ODD模型描述规范特别强调，目的与用于评价目的的可观察模式必须事先说清。把失败留在报告里，是比重新包装研究目标更严肃的科学实践。[T]<a href="#fn60" class="footnote-ref" id="fnref60" role="doc-noteref"><sup>60</sup></a></p>
+<h3 id="连拟合好了也不能宣布历史解释完成">8.4 连“拟合好了”也不能宣布历史解释完成</h3>
+<p>Oreskes、Shrader-Frechette和Belitz在1994年的著名文章中提醒研究者：对开放而复杂的自然系统，模型与观测吻合可以提供支持，但不能构成逻辑上的终极证明。历史社会系统同样具有不可重复、行动者会调整行为、因果机制多重实现等困难。把历史模型当作一次性证明机器，既违背科学方法，也容易产生政治解释上的傲慢。[T]<a href="#fn61" class="footnote-ref" id="fnref61" role="doc-noteref"><sup>61</sup></a></p>
+<p>例如我们完全能够用一条外生“消费增长系数”迫使模型复现1960—1978的KSH曲线，甚至获得零MAE。但这样的拟合只是把历史答案写进参数，<strong>没有回答企业和家庭怎样实现它</strong>。研究价值不在于一条线能否被画对，而在于它是否通过可信的制度规则，连接了真正独立的可观察事实。</p>
+<hr />
+<h2 id="九本讲结论一个模型必须允许现实告诉它你解释错了">九、本讲结论：一个模型必须允许现实告诉它“你解释错了”</h2>
+<p><strong>其一，P06失败不是一条可以轻轻带过的技术注释。</strong>在1960—1978年，KSH家庭消费总量指数由100升至216，而C0模型自己的指数降到42.36。这是一个方向性、持续性、数量级都明显的失配。研究者不能把报告中的42.36写成匈牙利的真实消费状况，也不能因模型有丰富的主体和漂亮的守恒图而忽视这一事实。</p>
+<p><strong>其二，最基础的计量纪律是让不同变量各归其位。</strong>总量消费216、人均消费202、人均实际收入216、GDP265，都是可能出现在1978年的不同数字。误差比较必须先回答“这是什么”，然后才能回答“差了多少”。P06现有的规范化指数对照，是一个值得认真对待的方向性检验；对于统计口径的差异，还需要更深入的crosswalk。</p>
+<p><strong>其三，守恒、验证与重放是不可缺少的成就，但它们解决的是‘代码能否可靠提出一个假说’。</strong>它们并不直接回答‘历史是否按这套假说运行’。P05修过的库存与服务流错误，证明这第一步非常辛苦；修好以后仍然失配，也证明第一步从来不是终点。</p>
+<p><strong>其四，HSM当前最值得研究的不是“如何调一个数字让图更好看”，而是多重约束究竟在哪里形成了失真的闭环。</strong>运输、装卸、工资支付、家庭获得、国际结算和Treasury出口付款相互作用。有些简单方案有效改变局部指标，却不能同时达到生产与消费目标；有些方案甚至因破坏银行准备金守恒而必须拒绝。这是机制研究可以从失败中得到的真知识。</p>
+<p><strong>其五，对社会主义经济的任何历史评价，都必须另用历史本身证明。</strong>1970年代匈牙利现实中确实实现消费与工业的长期扩张，也存在对外借款、投资效率、改革不彻底和政治经济妥协；这些是史学与经济史问题。模型失败既不替传统计划体制洗白，也不替科尔奈的制度批评自动背书，它只告诉我们：这套模拟尚未成功承载那些历史判断。</p>
+<p><strong>其六，严肃的数字历史研究必须建立反证权。</strong>当KSH、同期制度资料或微观交易档案与模型相矛盾时，研究者应检查观测、规则和证据，必要时接受<code>REJECTED</code>、<code>UNIDENTIFIED</code>、<code>NOT_RUN</code>。失败不是丢人，不能向资料负责才是。</p>
+<p><strong>其七，下一讲的任务因此更加明确。</strong>既然不能靠运行成功推导历史成立，那么<strong>怎样设计独立检验，怎样判断参数可识别、怎样设置真正的负对照，怎样理解模型产生的反事实与现实因果</strong>？这就是第27讲的核心，而第28讲才能在此基础上重建贯穿全书的比较历史解释。</p>
+<hr />
+<h2 id="十概念速查与研究型思考题">十、概念速查与研究型思考题</h2>
+<h3 id="概念速查">10.1 概念速查</h3>
+<div class="table-wrap"><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>术语</th>
+<th>严格而简明的含义</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>软件验证（verification）</td>
+<td>程序是否正确执行预定规则与算法，不能替代对规则真实性的审查</td>
+</tr>
+<tr class="even">
+<td>模型有效性（validation）</td>
+<td>模型对其<strong>特定用途</strong>是否足够可信；不是模型在所有方面“完全正确”</td>
+</tr>
+<tr class="odd">
+<td>会计一致性（accounting consistency）</td>
+<td>物量与货币流动满足内部核算关系；不保证产出水平或社会福利</td>
+</tr>
+<tr class="even">
+<td>计算可复现（reproducibility）</td>
+<td>同等版本、输入、配置与运行身份可重现结果；错误也能复现</td>
+</tr>
+<tr class="odd">
+<td>历史拟合（historical fit）</td>
+<td>模型输出在恰当口径、频率和时段下与独立历史观测接近</td>
+</tr>
+<tr class="even">
+<td>参数识别（identification）</td>
+<td>历史资料能否将不同参数或机制的作用有效区分开</td>
+</tr>
+<tr class="odd">
+<td>结构错设（misspecification）</td>
+<td>机制方程、行动时序、变量关系或约束遗漏而偏离研究对象</td>
+</tr>
+<tr class="even">
+<td>基期指数（base-year index）</td>
+<td>把某年数量相对同一基期表达为100倍比例，跨模型要避免偷偷对齐水平</td>
+</tr>
+<tr class="odd">
+<td>平均绝对误差（MAE）</td>
+<td>有效比较期内绝对偏差的平均，必须注明单位及是否排除归一基期</td>
+</tr>
+<tr class="even">
+<td>crosswalk（变量映射表）</td>
+<td>明确历史统计概念与模型输出的映射、口径差异和不可比较项</td>
+</tr>
+<tr class="odd">
+<td>阻断（blocked）</td>
+<td>某个审查、比较或实验缺少必要条件；不同于结论“假说为假”</td>
+</tr>
+<tr class="even">
+<td>负对照（negative control）</td>
+<td>明确不应影响目标机制的对照，用来检验假阳性或路径污染；第27讲详述</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="思考题不附标准答案">10.2 思考题（不附标准答案）</h3>
+<ol type="1">
+<li>如果一份计划经济模拟在1960—1978年完美拟合KSH的家庭消费指数，但严重偏离同期工业品产量、实际进口及住宅供应，你应如何评价它的历史解释力？进一步，如果拟合是用1970—1978的历史目标反向设定进口量得到的，结论会发生什么变化？</li>
+<li>假设一项HSM新方案使1978年C0消费指数从42升到90，同时物量与金融账目全部通过，却使财政长期出现比原模型更大的救助。按照本讲五级证据标准，应如何描述这项方案？需要何种独立历史资料才可能提升其解释等级？</li>
+<li>KSH提供家庭实际最终消费总量与人均消费两个指标，模型只记录若干商品组的家庭获得量。请设计一张最低限度的crosswalk：哪些差异可以通过人口权重、价格权重或商品分类解决，哪些差异必须修改模型本体？</li>
+<li>在模型的出口环节，列出“厂商真实无货”“运输路径中断”“国库可支付现金不足”“国外需求不足”四种竞争解释，并各找至少一种有机会在匈牙利1960—1978年同期史料中观察到的区分证据。</li>
+<li>如果你只能资助HSM下一步收集三类史料，会优先选择企业投入品采购/交付单据、银行及财政支付记录、家庭消费调查、KSH总量表还是工业产量统计？请提出排序，并说明如何防止只收集对现有模型友好的证据。</li>
+</ol>
+<hr />
+<h2 id="十一参考文献与资料说明">十一、参考文献与资料说明</h2>
+<blockquote>
+<p>下列书目区分历史统计、历史经济研究、方法论和模型一手报告。网页、付费章节和GitHub链接的可检索性不代表作者已经阅读其所有未公开原始附件。文中模型的数量来自公开研究报告，非本文重新计算所得。</p>
+</blockquote>
+<h3 id="a.-史料统计与历史经济研究">A. 史料、统计与历史经济研究</h3>
+<ol type="1">
+<li><strong>Hungarian Central Statistical Office (KSH)</strong>, <a href="https://www.ksh.hu/stadat_files/gdp/en/gdp0002.html"><em>21.1.1.2. Long time series of GDP, consumption and capital formation</em></a>, 1960=100；2026-10-26查阅。<strong>[H：官方历史统计]</strong>。家庭实际最终消费总量1968=137、1973=176、1978=216；GDP1978=265。另可核<a href="https://www.ksh.hu/docs/eng/xstadat/xstadat_long/h_qpt001.html">旧版表3.1.1</a>。</li>
+<li><strong>KSH</strong>, <a href="https://www.ksh.hu/stadat_files/gdp/en/gdp0003.html"><em>21.1.1.3. Long time series of real income and consumption per capita</em></a>, 1960=100；2026-10-26查阅。<strong>[H：官方历史统计]</strong>。1978年人均消费=202，人均实际收入=216；注意区别于上表总量。另可核<a href="https://www.ksh.hu/docs/eng/xstadat/xstadat_long/h_qpf002.html">旧版表3.1.2</a>。</li>
+<li><strong>KSH</strong>, <a href="https://www.ksh.hu/docs/eng/xstadat/xstadat_long/h_qsf001.html"><em>3.4. Consumer price index (1960–)</em></a>。<strong>[H：官方价格统计]</strong>。用于识别消费量与消费价格两类指数的区别；本讲没有将CPI作为家庭消费量TARGET。</li>
+<li><strong>János Somogyi and Anthony R. Boote</strong> (1991), <em>Economic Reform in Hungary Since 1968</em>, IMF Occasional Paper 1991/003, 41 pp., DOI <a href="https://doi.org/10.5089/9781557752161.084">10.5089/9781557752161.084</a>。可阅读<a href="https://www.elibrary.imf.org/display/book/9781557752161/Ch02.xml">第二章：Framework for Reform Since 1968</a>。<strong>[H：制度历史研究/接近当代的机构研究]</strong>，用于NEM背景、企业、价格与金融制度；不替代KSH的年度统计。</li>
+<li><strong>International Monetary Fund</strong> (1992), <a href="https://www.elibrary.imf.org/display/book/9781557753045/ch01.xml">“Overview of Macroeconomic Developments in Hungary: 1968–89”</a>。<strong>[H：机构宏观历史重建]</strong>；用于1970年代改革、贸易条件与外债的大致时序，属后来的经济史重建而非1970年代现场文件。</li>
+<li><strong>János Kornai</strong> (1980), <em>Economics of Shortage</em>, Amsterdam: North-Holland；(1992), <a href="https://academic.oup.com/book/4729"><em>The Socialist System: The Political Economy of Communism</em></a>, Oxford University Press。<strong>[T：社会主义体制理论]</strong>。短缺和预算软化的系统性解释；其理论不能直接验证本模型哪个程序环节符合匈牙利。</li>
+</ol>
+<h3 id="b.-模拟验证与模型解释的方法论">B. 模拟验证与模型解释的方法论</h3>
+<ol start="7" type="1">
+<li><strong>Robert G. Sargent</strong> (2013), <a href="https://doi.org/10.1057/jos.2012.20">“Verification and Validation of Simulation Models”</a>, <em>Journal of Simulation</em> 7(1):12–24。<strong>[T：模拟方法论]</strong>；概念模型、输入数据、程序验证与运行有效性。</li>
+<li><strong>Naomi Oreskes, Kristin Shrader-Frechette, and Kenneth Belitz</strong> (1994), <a href="https://doi.org/10.1126/science.263.5147.641">“Verification, Validation, and Confirmation of Numerical Models in the Earth Sciences”</a>, <em>Science</em> 263(5147):641–646。<strong>[T：方法认识论]</strong>；解释“吻合不等于逻辑证明”。</li>
+<li><strong>Volker Grimm et al.</strong> (2020), <a href="https://www.jasss.org/23/2/7.html">“The ODD Protocol for Describing Agent-Based and Other Simulation Models: A Second Update to Improve Clarity, Replication, and Structural Realism”</a>, <em>Journal of Artificial Societies and Social Simulation</em> 23(2):7, DOI 10.18564/jasss.4259。<strong>[T：模型描述规范]</strong>；模型用途、待复现模式、结构假设和实验设计。</li>
+</ol>
+<h3 id="c.-hsm项目一手研究记录2026-10-26核对main">C. HSM项目一手研究记录（2026-10-26核对<code>main</code>）</h3>
+<ol start="10" type="1">
+<li><strong>HSM</strong>，<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/docs/phases/P05_REPORT.md"><code>docs/phases/P05_REPORT.md</code></a>。<strong>[C/S：工程修复、闭环审查、识别筛查]</strong>；尤其§2内核修复、§5参数识别。所列原始运行在本地<code>outputs/</code>，本讲只读取公开报告。</li>
+<li><strong>HSM</strong>，<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/docs/phases/P06_FINAL_REPORT.md"><code>docs/phases/P06_FINAL_REPORT.md</code></a>。<strong>[S：基础复现与结构试验报告]</strong>；消费C0年度表、91.7414指数点的MAE、18/18超容差、内部冻结门及OAT。</li>
+<li><strong>HSM</strong>，<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/docs/phases/P06_RUN_REPORT.md"><code>docs/phases/P06_RUN_REPORT.md</code></a>。<strong>[S：C1进口与出口通道、消费失配]</strong>；2 mapped / 1 blocked / 11 no_counterpart、seed/hash及场景来源。</li>
+<li><strong>HSM</strong>，<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/docs/phases/P06_STRUCTURAL_REVIEW.md"><code>docs/phases/P06_STRUCTURAL_REVIEW.md</code></a>。<strong>[S：结构性修复失败及负结果]</strong>；A1—A4候选、拒绝条件和残余瓶颈。</li>
+<li><strong>HSM</strong>，<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/config/calibration/p06_reproduction_crosswalk.json"><code>config/calibration/p06_reproduction_crosswalk.json</code></a>，<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/data/manifests/p05_targets.yml"><code>data/manifests/p05_targets.yml</code></a>。<strong>[C：正式历史指标映射与数据注册]</strong>；按模型对应项的<code>mapped</code>/<code>blocked</code>/<code>no_counterpart</code>逐一披露差异及受限数据路径。</li>
+<li><strong>HSM</strong>，<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/README.md"><code>README.md</code></a>与<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/studies/HIST_VNEXT/packages/H6B/REPORT.md"><code>studies/HIST_VNEXT/packages/H6B/REPORT.md</code></a>。<strong>[S：最新研究包审计状态]</strong>；3 complete / 8 blocked，历史SUPPORTED=0。</li>
+<li><strong>HSM</strong>，<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/src/hsm_lab/engine/network.py"><code>src/hsm_lab/engine/network.py</code></a>，<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/src/hsm_lab/engine/material.py"><code>material.py</code></a>，<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/src/hsm_lab/engine/finance.py"><code>finance.py</code></a>，<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/src/hsm_lab/engine/trade.py"><code>trade.py</code></a>，<a href="https://github.com/swjn2017USTC/hungary-socialist-mechanism-lab/blob/main/src/hsm_lab/engine/accounting.py"><code>accounting.py</code></a>。<strong>[C：生产—交付—金融—外贸守恒一手代码]</strong>。</li>
+</ol>
+<h3 id="脚注按正文首次引用顺序">脚注（按正文首次引用顺序）</h3>
+<hr />
+<h2 id="附录a给第27讲留下一份结果身份与证据门槛清单">附录A｜给第27讲留下一份“结果身份与证据门槛”清单</h2>
+<div class="table-wrap"><table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>证据对象</th>
+<th>模型/路径</th>
+<th>当前可复核内容</th>
+<th>不可推断事项</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C0基础历史复现</td>
+<td>F2 <code>historical_f2_replay</code></td>
+<td>116季度；消费C0与KSH的1960—1978年对照；seed1729及公开digest</td>
+<td>真实匈牙利家庭消费曾下降至42.36</td>
+</tr>
+<tr class="even">
+<td>C1外贸场景</td>
+<td>F2 <code>historical_f2_trade_scenario</code></td>
+<td>合成外贸向量；进口可传导；Treasury出口约束；消费C1更低</td>
+<td>历史外贸因果净效应或外汇市场均衡</td>
+</tr>
+<tr class="odd">
+<td>C0/C1年度比较</td>
+<td><code>p06_reproduction_crosswalk.json</code>与P06报告</td>
+<td>2可映射、1阻断、11不可映射（C1阶段）</td>
+<td>“14个指标全部历史拟合成功或失败”</td>
+</tr>
+<tr class="even">
+<td>P06结构试验</td>
+<td>A1—A4冻结干预</td>
+<td>某些局部路径改善、总体门槛失败与负余额拒绝</td>
+<td>找到真实匈牙利经济危机的唯一原因</td>
+</tr>
+<tr class="odd">
+<td>H6B机制包</td>
+<td><code>studies/HIST_VNEXT/packages/H6B</code></td>
+<td>11卡中3 complete、8 blocked；可冷启动导出审计</td>
+<td>任何历史<code>SUPPORTED</code>或已校准参数</td>
+</tr>
+</tbody>
+</table></div>
+<p>本讲未读取<code>outputs/</code>，因此上表“可复核”意味着可从Git中核查<strong>声明、代码和报告</strong>；若要重新核验运行数字，必须在许可环境以已登记的场景、seed、完整输入与固定依赖重新运行，而不能把本讲文内数字当作新实验。</p>
+<h2 id="附录b一张给后续github-pages互动教学的设计卡仅设计不实现">附录B｜一张给后续GitHub Pages互动教学的设计卡（仅设计，不实现）</h2>
+<p>最值得制作的不是“把结果调好看”的滑块，而是一个三栏对照：<strong>左栏</strong>显示KSH家庭消费总量历史指数；<strong>中栏</strong>显示冻结C0/C1历史复现报告，允许读者切换模型曲线、逐年残差与有效时间窗；<strong>右栏</strong>显示教学用的五道门（库存、运输、银行付款、家庭预算、出口结算）及一个完全独立的合成玩具模型。页面始终展示<code>[H]</code>、<code>[S]</code>、<code>[E]</code>标签，明确“改变滑块不会重新运行真实HSM，不会修改仓库原报告”。这种互动更能够训练读者理解<strong>模型不拟合的含义与机制定位的困难</strong>。</p>
+<hr />
+<p><strong>本讲最终判断：历史模拟首先是一种必须承担失败风险的经验论证。只有当账目、运行和程序都能被检查，历史观测又能够真正否定它时，它才有机会逐步成为一门成熟的计算经济史，而不是让历史充当代码的插图。</strong></p>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Sargent (2013)论模拟验证与有效性的不同维度；文中对验证的描述是其方法论的教学概括，非原文逐字引语。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Oreskes, Shrader-Frechette &amp; Belitz (1994)；模型拟合与科学证明的逻辑区别，尤其不应把“验证一段历史”理解为严格证明所有可能的历史。<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>HSM，<code>docs/phases/P06_FINAL_REPORT.md</code>，§“First result: consumption fails in every informative year”、§“Frozen gates and guardrails”、§“W2 OAT arm replication spread”。1978模型42.36、目标216、C0消费MAE91.7414及18/18超容差均来自此报告。<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>HSM，<code>docs/phases/P06_RUN_REPORT.md</code>，§“Plan C — trade transmission probe”，§“Declared scenario and non-circular provenance”、§“Arm outcomes and transmission”；C1消费、进口与出口付款通道及对应digest见此。<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>KSH，<code>gdp0002.html</code>或旧版<code>h_qpt001.html</code>，家庭实际最终消费<strong>总量</strong>一列，1960=100。2026-10-26实检公开表，覆盖本讲全部KSH消费TARGET年份。<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>KSH，<code>gdp0003.html</code>或旧版<code>h_qpf002.html</code>，分别标注人均消费与人均实际收入；两者不能替代国民账户的总量消费。<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>HSM，<code>docs/phases/P05_REPORT.md</code>，§2“F2 kernel closure repair”、§3临时锚点、§5识别筛查。修复记录和原始模拟状态由报告叙述，本讲没有检查本地忽略的输出数据。<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>HSM，<code>docs/phases/P06_STRUCTURAL_REVIEW.md</code>，Track A1—A4候选结果与冻结门；详细实验报告为对应<code>P05_*_EXPERIMENT.md</code>，本讲只提公开结构审查表有据可核的数值和方向。<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Somogyi &amp; Boote (1991)，第一至三章；有关1968新经济机制的制度范围属于当事时代之后的正式历史研究，非1950年代原始计划文件。<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>IMF (1992)，1968—1989匈牙利宏观经济回顾。该文明确提到1968年改革在国家计划仍重要时赋予企业更大自主权。<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Somogyi &amp; Boote (1991)，第一至三章；有关1968新经济机制的制度范围属于当事时代之后的正式历史研究，非1950年代原始计划文件。<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>IMF (1992)，1968—1989匈牙利宏观经济回顾。该文明确提到1968年改革在国家计划仍重要时赋予企业更大自主权。<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>IMF (1992)，同上，关于1974—1978年贸易条件和外债增长时序；数值为该研究估计口径，不是HSM输出。<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>KSH，<code>gdp0002.html</code>或旧版<code>h_qpt001.html</code>，家庭实际最终消费<strong>总量</strong>一列，1960=100。2026-10-26实检公开表，覆盖本讲全部KSH消费TARGET年份。<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>KSH，<code>gdp0002.html</code>或旧版<code>h_qpt001.html</code>，家庭实际最终消费<strong>总量</strong>一列，1960=100。2026-10-26实检公开表，覆盖本讲全部KSH消费TARGET年份。<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>KSH，<code>gdp0003.html</code>或旧版<code>h_qpf002.html</code>，分别标注人均消费与人均实际收入；两者不能替代国民账户的总量消费。<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>KSH，<code>gdp0002.html</code>或旧版<code>h_qpt001.html</code>，家庭实际最终消费<strong>总量</strong>一列，1960=100。2026-10-26实检公开表，覆盖本讲全部KSH消费TARGET年份。<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>KSH，<code>gdp0003.html</code>或旧版<code>h_qpf002.html</code>，分别标注人均消费与人均实际收入；两者不能替代国民账户的总量消费。<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>HSM，<code>docs/phases/P06_FINAL_REPORT.md</code>，§“First result: consumption fails in every informative year”、§“Frozen gates and guardrails”、§“W2 OAT arm replication spread”。1978模型42.36、目标216、C0消费MAE91.7414及18/18超容差均来自此报告。<a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>Sargent (2013)论模拟验证与有效性的不同维度；文中对验证的描述是其方法论的教学概括，非原文逐字引语。<a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p>HSM，<code>docs/phases/P05_REPORT.md</code>，§2“F2 kernel closure repair”、§3临时锚点、§5识别筛查。修复记录和原始模拟状态由报告叙述，本讲没有检查本地忽略的输出数据。<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p>Grimm et al. (2020)，关于模型结构、实验安排及可复现说明的ODD规范；参见第25讲ODD小节。<a href="#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23"><p>HSM，<code>README.md</code> §4，<code>studies/HIST_VNEXT/packages/H6B/REPORT.md</code> §§3—6。2026-10-26核对main，不将package-complete当作历史假说支持。<a href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn24"><p>Sargent (2013)论模拟验证与有效性的不同维度；文中对验证的描述是其方法论的教学概括，非原文逐字引语。<a href="#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn25"><p>HSM，<code>docs/phases/P05_REPORT.md</code> §5—6，<code>README.md</code> §2—4及<code>config/research_contract.json</code>。<code>calibration</code>、<code>internal_validation</code>是名称，不等于已完成统计校准或独立验证。<a href="#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26"><p>Oreskes, Shrader-Frechette &amp; Belitz (1994)；模型拟合与科学证明的逻辑区别，尤其不应把“验证一段历史”理解为严格证明所有可能的历史。<a href="#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn27"><p>HSM，<code>docs/phases/P05_REPORT.md</code>，§2“F2 kernel closure repair”、§3临时锚点、§5识别筛查。修复记录和原始模拟状态由报告叙述，本讲没有检查本地忽略的输出数据。<a href="#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn28"><p>HSM，<code>docs/phases/P05_REPORT.md</code>，§2“F2 kernel closure repair”、§3临时锚点、§5识别筛查。修复记录和原始模拟状态由报告叙述，本讲没有检查本地忽略的输出数据。<a href="#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn29"><p>HSM，<code>docs/phases/P05_REPORT.md</code>，§2“F2 kernel closure repair”、§3临时锚点、§5识别筛查。修复记录和原始模拟状态由报告叙述，本讲没有检查本地忽略的输出数据。<a href="#fnref29" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn30"><p>HSM，<code>docs/phases/P06_FINAL_REPORT.md</code>，§“First result: consumption fails in every informative year”、§“Frozen gates and guardrails”、§“W2 OAT arm replication spread”。1978模型42.36、目标216、C0消费MAE91.7414及18/18超容差均来自此报告。<a href="#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn31"><p>HSM，<code>docs/phases/P05_REPORT.md</code> §5—6，<code>README.md</code> §2—4及<code>config/research_contract.json</code>。<code>calibration</code>、<code>internal_validation</code>是名称，不等于已完成统计校准或独立验证。<a href="#fnref31" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn32"><p>HSM，<code>docs/phases/P06_FINAL_REPORT.md</code>，§“First result: consumption fails in every informative year”、§“Frozen gates and guardrails”、§“W2 OAT arm replication spread”。1978模型42.36、目标216、C0消费MAE91.7414及18/18超容差均来自此报告。<a href="#fnref32" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn33"><p>HSM，<code>docs/phases/P06_RUN_REPORT.md</code>，§“Plan C — trade transmission probe”，§“Declared scenario and non-circular provenance”、§“Arm outcomes and transmission”；C1消费、进口与出口付款通道及对应digest见此。<a href="#fnref33" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn34"><p>HSM，<code>docs/phases/P06_FINAL_REPORT.md</code>，§“First result: consumption fails in every informative year”、§“Frozen gates and guardrails”、§“W2 OAT arm replication spread”。1978模型42.36、目标216、C0消费MAE91.7414及18/18超容差均来自此报告。<a href="#fnref34" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn35"><p>HSM，<code>docs/phases/P06_RUN_REPORT.md</code>，§“Plan C — trade transmission probe”，§“Declared scenario and non-circular provenance”、§“Arm outcomes and transmission”；C1消费、进口与出口付款通道及对应digest见此。<a href="#fnref35" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn36"><p>KSH，<code>gdp0002.html</code>或旧版<code>h_qpt001.html</code>，家庭实际最终消费<strong>总量</strong>一列，1960=100。2026-10-26实检公开表，覆盖本讲全部KSH消费TARGET年份。<a href="#fnref36" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn37"><p>HSM，<code>docs/phases/P06_FINAL_REPORT.md</code>，§“First result: consumption fails in every informative year”、§“Frozen gates and guardrails”、§“W2 OAT arm replication spread”。1978模型42.36、目标216、C0消费MAE91.7414及18/18超容差均来自此报告。<a href="#fnref37" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn38"><p>HSM，<code>docs/phases/P06_RUN_REPORT.md</code>，§“Plan C — trade transmission probe”，§“Declared scenario and non-circular provenance”、§“Arm outcomes and transmission”；C1消费、进口与出口付款通道及对应digest见此。<a href="#fnref38" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn39"><p>HSM，<code>docs/phases/P06_RUN_REPORT.md</code>，§“Plan C — trade transmission probe”，§“Declared scenario and non-circular provenance”、§“Arm outcomes and transmission”；C1消费、进口与出口付款通道及对应digest见此。<a href="#fnref39" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn40"><p>HSM，<code>config/calibration/p06_reproduction_crosswalk.json</code>，逐变量source/grade/quantity/limitation；<code>docs/phases/P06_RUN_REPORT.md</code>§“Crosswalk and evidence status”。<a href="#fnref40" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn41"><p>HSM，<code>docs/phases/P06_FINAL_REPORT.md</code>，§“First result: consumption fails in every informative year”、§“Frozen gates and guardrails”、§“W2 OAT arm replication spread”。1978模型42.36、目标216、C0消费MAE91.7414及18/18超容差均来自此报告。<a href="#fnref41" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn42"><p>HSM，<code>docs/phases/P06_RUN_REPORT.md</code>，§“Plan C — trade transmission probe”，§“Declared scenario and non-circular provenance”、§“Arm outcomes and transmission”；C1消费、进口与出口付款通道及对应digest见此。<a href="#fnref42" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn43"><p>HSM，<code>config/calibration/p06_reproduction_crosswalk.json</code>，逐变量source/grade/quantity/limitation；<code>docs/phases/P06_RUN_REPORT.md</code>§“Crosswalk and evidence status”。<a href="#fnref43" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn44"><p>HSM，<code>config/calibration/p06_reproduction_crosswalk.json</code>，逐变量source/grade/quantity/limitation；<code>docs/phases/P06_RUN_REPORT.md</code>§“Crosswalk and evidence status”。<a href="#fnref44" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn45"><p>HSM，<code>src/hsm_lab/engine/network.py</code>文件导言及<code>material.py</code>季度执行顺序，<code>accounting.py</code>单元级守恒；代码事实只支持“引擎如此定义”，不构成匈牙利制度一手证据。<a href="#fnref45" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn46"><p>HSM，<code>docs/phases/P06_FINAL_REPORT.md</code>，§“First result: consumption fails in every informative year”、§“Frozen gates and guardrails”、§“W2 OAT arm replication spread”。1978模型42.36、目标216、C0消费MAE91.7414及18/18超容差均来自此报告。<a href="#fnref46" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn47"><p>HSM，<code>docs/phases/P06_FINAL_REPORT.md</code>，§“First result: consumption fails in every informative year”、§“Frozen gates and guardrails”、§“W2 OAT arm replication spread”。1978模型42.36、目标216、C0消费MAE91.7414及18/18超容差均来自此报告。<a href="#fnref47" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn48"><p>HSM，<code>docs/phases/P06_RUN_REPORT.md</code>，§“Plan C — trade transmission probe”，§“Declared scenario and non-circular provenance”、§“Arm outcomes and transmission”；C1消费、进口与出口付款通道及对应digest见此。<a href="#fnref48" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn49"><p>HSM，<code>docs/phases/P06_RUN_REPORT.md</code>，§“Plan C — trade transmission probe”，§“Declared scenario and non-circular provenance”、§“Arm outcomes and transmission”；C1消费、进口与出口付款通道及对应digest见此。<a href="#fnref49" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn50"><p>HSM，<code>docs/phases/P06_RUN_REPORT.md</code>，§“Plan C — trade transmission probe”，§“Declared scenario and non-circular provenance”、§“Arm outcomes and transmission”；C1消费、进口与出口付款通道及对应digest见此。<a href="#fnref50" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn51"><p>HSM，<code>docs/phases/P06_STRUCTURAL_REVIEW.md</code>，Track A1—A4候选结果与冻结门；详细实验报告为对应<code>P05_*_EXPERIMENT.md</code>，本讲只提公开结构审查表有据可核的数值和方向。<a href="#fnref51" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn52"><p>HSM，<code>docs/phases/P06_STRUCTURAL_REVIEW.md</code>，Track A1—A4候选结果与冻结门；详细实验报告为对应<code>P05_*_EXPERIMENT.md</code>，本讲只提公开结构审查表有据可核的数值和方向。<a href="#fnref52" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn53"><p>HSM，<code>README.md</code> §4，<code>studies/HIST_VNEXT/packages/H6B/REPORT.md</code> §§3—6。2026-10-26核对main，不将package-complete当作历史假说支持。<a href="#fnref53" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn54"><p>HSM，<code>README.md</code> §4，<code>studies/HIST_VNEXT/packages/H6B/REPORT.md</code> §§3—6。2026-10-26核对main，不将package-complete当作历史假说支持。<a href="#fnref54" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn55"><p>Kornai (1980, 1992)与本书第21—22讲；苏东制度差异在此只作比较史方向性概括，不作为数值估计。<a href="#fnref55" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn56"><p>本书第23—24讲关于中国行政经济与改革的机制比较；本讲不重新为中国估计参数。<a href="#fnref56" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn57"><p>Kornai (1980, 1992)与本书第21—22讲；苏东制度差异在此只作比较史方向性概括，不作为数值估计。<a href="#fnref57" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn58"><p>HSM，<code>docs/phases/P05_REPORT.md</code> §5—6，<code>README.md</code> §2—4及<code>config/research_contract.json</code>。<code>calibration</code>、<code>internal_validation</code>是名称，不等于已完成统计校准或独立验证。<a href="#fnref58" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn59"><p>HSM，<code>config/calibration/p06_reproduction_crosswalk.json</code>，逐变量source/grade/quantity/limitation；<code>docs/phases/P06_RUN_REPORT.md</code>§“Crosswalk and evidence status”。<a href="#fnref59" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn60"><p>Grimm et al. (2020)，ODD“Purpose and patterns”部分；改变目的应明确声明，不能让模型实验在结果揭晓后替原目标改名。<a href="#fnref60" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn61"><p>Oreskes, Shrader-Frechette &amp; Belitz (1994)；模型拟合与科学证明的逻辑区别，尤其不应把“验证一段历史”理解为严格证明所有可能的历史。<a href="#fnref61" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+<p class="small"><a href="source/Lecture_26_为什么模型运行正确却解释不了真实历史.md" download>下载本讲原始 Markdown</a></p><p class="callout">本讲相关互动实验：<a href="experiments.html">打开经济机制实验室 →</a>。实验为简化教学模型，不代表匈牙利历史估计。</p><div class="paged"><a href="lecture-25.html">← 第25讲</a><a href="lecture-27.html">第27讲 →</a></div></article></main><footer class="footer">© 2026 · 计划经济系列讲义 · 本站为独立教学材料，模型结果不等于历史验证</footer></div></div></body></html>

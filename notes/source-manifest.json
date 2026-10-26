@@ -1,0 +1,286 @@
+{
+  "version": "2026-10-26",
+  "chapters": [
+    {
+      "n": 1,
+      "filename": "Lecture_01_计划经济为什么产生.md",
+      "title": "第01讲｜计划经济为什么产生？从马克思的设想到苏联的制度创造",
+      "part": 0,
+      "characters": 25890,
+      "edited_sha256": "0da9bc5e8ddbecc59a66d8678cdc1d83493fb837e5f990e03252f3718e5feab4",
+      "source_sha256": "a41d3713d22e9ce5bc7c8d17764830c47fe9023528b350d4986c2d2e7c67585a",
+      "footnotes": 24
+    },
+    {
+      "n": 2,
+      "filename": "Lecture_02_国家怎样制订并执行计划.md",
+      "title": "第02讲｜国家怎样制订并执行计划？从政治局到工厂车间",
+      "part": 0,
+      "characters": 30043,
+      "edited_sha256": "ec760b156c0cf4a89e1006d8a51928eef9dd90a14e8e505533eaa2a4d1b7c0ac",
+      "source_sha256": "8ed073459939b0cc38984092b59f9fa1fe07d9b72e8778ee4a2a1ea2c9aa31d2",
+      "footnotes": 0
+    },
+    {
+      "n": 3,
+      "filename": "Lecture_03_物资平衡.md",
+      "title": "第03讲｜没有市场出清，经济怎样维持物资平衡？",
+      "part": 0,
+      "characters": 29217,
+      "edited_sha256": "e66103a5c5bc92ec88b53e1585e7901f57ae7149a2bb7e992956207dd5469b23",
+      "source_sha256": "84cb94c9a3d7566b3cc96821525ca9f3fc1a83f642d63879817dcbcdefd5df42",
+      "footnotes": 0
+    },
+    {
+      "n": 4,
+      "filename": "Lecture_04_价格与经济计算.md",
+      "title": "第04讲｜计划机关怎样知道什么东西值得生产？价格、影子价格与经济计算",
+      "part": 0,
+      "characters": 35466,
+      "edited_sha256": "6d1d91745409881fef71cdadf5f38251ed07c19b15ad09fe656749477c44e8cc",
+      "source_sha256": "44130857a10b12dfebccff81340551cf2b09f38d106af90cb454ec46ad262370",
+      "footnotes": 0
+    },
+    {
+      "n": 5,
+      "filename": "Lecture_05_为什么优先发展重工业.md",
+      "title": "第05讲｜为什么社会主义国家普遍优先发展重工业？",
+      "part": 1,
+      "characters": 34166,
+      "edited_sha256": "b59cf993e3b9852347b738636269a64307f83700497786f999838b4e115b2c19",
+      "source_sha256": "24761e7d9b3ae500caf833f7fae18ba53d5eaa6c63e990d86ac178578b692d85",
+      "footnotes": 0
+    },
+    {
+      "n": 6,
+      "filename": "Lecture_06_社会主义国营企业怎样运行.md",
+      "title": "第06讲｜社会主义国营企业究竟怎样运行？",
+      "part": 1,
+      "characters": 34713,
+      "edited_sha256": "66859e081dd6ce9c761be5c1d51cd53c0e5d4058da375728472e6c7751f3492a",
+      "source_sha256": "062fbf28241ef54fb7d93f68dcf32fea4cd46ad593bfaec13c476c13c56460b8",
+      "footnotes": 0
+    },
+    {
+      "n": 7,
+      "filename": "Lecture_07_为什么生产增长仍然短缺.md",
+      "title": "第07讲｜为什么一个不断扩大生产的经济仍然会出现短缺？",
+      "part": 1,
+      "characters": 37916,
+      "edited_sha256": "63c771410bf4a225533b5ec42e0945d09bf2f0128553623cab4eae7aa72d734c",
+      "source_sha256": "0b8127efabf52e07a32cb6147bf1cce4f1aa7791db57fd1d43e1dcfa04a0f72a",
+      "footnotes": 0
+    },
+    {
+      "n": 8,
+      "filename": "Lecture_08_生产与物流网络.md",
+      "title": "第08讲｜一个国家的生产和物流网络怎样被组织起来？",
+      "part": 1,
+      "characters": 29642,
+      "edited_sha256": "a789ecd2d0cefa6b1439ba8f0c359f0155a36f6442385da83474a67d5a72cd9e",
+      "source_sha256": "9d62a1b80090ebe48603107684ce14232618a1ec0b43eb76e600e211e5e44423",
+      "footnotes": 0
+    },
+    {
+      "n": 9,
+      "filename": "Lecture_09_银行信用与软预算约束.md",
+      "title": "第09讲｜社会主义经济为什么也需要银行、信用和预算？",
+      "part": 2,
+      "characters": 31872,
+      "edited_sha256": "9a9aa70f5166870ac80e41eb22e729867629d34d9a6105ee65a45c6fa35bb7c1",
+      "source_sha256": "9067cbce48d8d5857c18fc49b86a1c51a82692401480b80667e55d3b3e4026b5",
+      "footnotes": 0
+    },
+    {
+      "n": 10,
+      "filename": "Lecture_10_社会主义农业与农村经济.md",
+      "title": "第10讲｜社会主义农业和农村经济为什么不能简单照搬工业？",
+      "part": 2,
+      "characters": 36284,
+      "edited_sha256": "59dcc0933dcca17922b50f5c0129d2447a106adf13ba499dcddc2958cf191d74",
+      "source_sha256": "878e16a0d25a4996176e9117c97b71196650b901912f796a3e4522476a42f1ae",
+      "footnotes": 30
+    },
+    {
+      "n": 11,
+      "filename": "Lecture_11_充分就业与劳动囤积.md",
+      "title": "第11讲｜充分就业为什么既是社会主义成就，也可能成为效率难题？",
+      "part": 2,
+      "characters": 35965,
+      "edited_sha256": "06e779ba934a8856941882a70dd654ddc19d746b9339a2ef9eaebccf744a0af4",
+      "source_sha256": "6d6008aeaf01bebabbc99181df946063c8592b86f6b7455d836d0bb89c8fa785",
+      "footnotes": 30
+    },
+    {
+      "n": 12,
+      "filename": "Lecture_12_社会主义消费社会与社会契约.md",
+      "title": "第12讲｜社会主义消费社会究竟是什么？工资、住房、排队与社会契约",
+      "part": 2,
+      "characters": 34112,
+      "edited_sha256": "078fe5051bca71a105430e4e84826cce47105c8f1b47d9d87993789a900a7431",
+      "source_sha256": "03dd340adb9e9e959ac09cd9ae94a2cef1eef111d7da4da51bc2067f8658db1f",
+      "footnotes": 25
+    },
+    {
+      "n": 13,
+      "filename": "Lecture_13_卡达尔政治重建与生活水平政策.md",
+      "title": "第13讲｜1956年以后，卡达尔为什么选择经济改革与生活水平政治？",
+      "part": 3,
+      "characters": 34185,
+      "edited_sha256": "28a026c3d75f41af351994016e5232947576799628f41f58a609b2eed4faf5df",
+      "source_sha256": "be6d9ea3ed24cdfa062ab532b8e6fadb8cdc22663de837e9cee8fad8cbd37e6b",
+      "footnotes": 28
+    },
+    {
+      "n": 14,
+      "filename": "Lecture_14_1968年匈牙利新经济机制.md",
+      "title": "第14讲｜1968年匈牙利新经济机制究竟改革了什么？",
+      "part": 3,
+      "characters": 30428,
+      "edited_sha256": "ddc2dcbcbf0bcf5b6ad77845142ddc9f04a01375c2be4afcb22b4a5e3faf35b8",
+      "source_sha256": "3d86de93edffb4242ebaa882fb872cb9a1a2a09d5cee57fd84a0525a6d343fe3",
+      "footnotes": 0
+    },
+    {
+      "n": 15,
+      "filename": "Lecture_15_改革回摆与制度互补.md",
+      "title": "第15讲｜为什么改革以后会出现新的矛盾，甚至重新加强行政控制？",
+      "part": 3,
+      "characters": 33822,
+      "edited_sha256": "4c5eabd8887ab85dfc3ec3d4cfd044fef061f3fbe4770ea90120742c950b4a37",
+      "source_sha256": "12006f7488b92d85d3c624c43690a182516a37f058aecfa31a215c1ddc42b306",
+      "footnotes": 0
+    },
+    {
+      "n": 16,
+      "filename": "Lecture_16_第二经济与第二轮改革.md",
+      "title": "第16讲｜第二经济与第二轮改革：社会主义体制能否容纳市场和私人活动？",
+      "part": 3,
+      "characters": 34433,
+      "edited_sha256": "b6c8b80ac0b02e4e1973b90eee38c3193a1f31dfa8dc43d437b4ad103c156d5c",
+      "source_sha256": "4655fc5344ee04336cecfc964b9737ea13aeb2d17f5432b9056bf392cc561f44",
+      "footnotes": 0
+    },
+    {
+      "n": 17,
+      "filename": "Lecture_17_经互会与两个贸易世界.md",
+      "title": "第17讲｜社会主义国家怎样参与世界经济？经互会与两个贸易世界",
+      "part": 4,
+      "characters": 37133,
+      "edited_sha256": "a5f2e0a08ac6990e67a3dced748c1247126b5bc0dc16ab3557d42096aa552fd1",
+      "source_sha256": "0a08ffbfebd8aea8f83b5d141e4018313202d9a9e954c593c41ddee9343a6f56",
+      "footnotes": 0
+    },
+    {
+      "n": 18,
+      "filename": "Lecture_18_石油冲击外债与危机.md",
+      "title": "第18讲｜1973年与1979年冲击：外债怎样延长繁荣，又怎样制造危机？",
+      "part": 4,
+      "characters": 33291,
+      "edited_sha256": "74064dc12dfe201232d824fa924830ecc45733e4b4c4007bc0f261f3c252b7db",
+      "source_sha256": "2acce45ab0b5286745e443196647915cdbcc94c3e902118768c1b42a3775ab57",
+      "footnotes": 0
+    },
+    {
+      "n": 19,
+      "filename": "Lecture_19_1980年代增长消费与金融三重困境.md",
+      "title": "第19讲｜1980年代匈牙利为什么陷入增长、消费和金融三重困境？",
+      "part": 4,
+      "characters": 32277,
+      "edited_sha256": "a6acc8068d197fab0b98c169e713fa8474a33f92483ffe1908f91d6644041aaa",
+      "source_sha256": "aaf56cdbcc49fdc8f81577d6074bdf7dc3a338b08ef804ad9df1c0b8526e0b25",
+      "footnotes": 0
+    },
+    {
+      "n": 20,
+      "filename": "Lecture_20_1989年究竟什么失败了.md",
+      "title": "第20讲｜1989年究竟什么失败了？计划体制、经济改革，还是党—国家共同体？",
+      "part": 4,
+      "characters": 32132,
+      "edited_sha256": "9aebc00568780b1228e8d95093ff7882d27209ae57d0f916d034ec43f3880ca4",
+      "source_sha256": "ea49699c6171498a3be97c8ce391fbcb464d69227a5d0f6908952b476b41479b",
+      "footnotes": 0
+    },
+    {
+      "n": 21,
+      "filename": "Lecture_21_苏联工业化与长期增长减速.md",
+      "title": "第21讲｜苏联：为什么传统计划经济能够工业化，却难以维持长期增长动力？",
+      "part": 5,
+      "characters": 31236,
+      "edited_sha256": "18cde592582bb361af14fc8b611e90e704e3a9dbad5fc83c4f7ac179396537ad",
+      "source_sha256": "b206069b28a2320c0b73dadb2456ec8bab511576e438cbb99580476df3998e93",
+      "footnotes": 0
+    },
+    {
+      "n": 22,
+      "filename": "Lecture_22_东德波兰南斯拉夫改革与危机比较.md",
+      "title": "第22讲｜东德、波兰、南斯拉夫：为什么改革路径不同，危机却具有某些共性？",
+      "part": 5,
+      "characters": 36162,
+      "edited_sha256": "8b6ba9adcddff2054ef1cb983616b259bd3bb8061613252af2ce3653b627be08",
+      "source_sha256": "893ca65d2e6b1bf4d44f0ac6ef51260fd5d99b2723c3badbde578e25bb4e6764",
+      "footnotes": 0
+    },
+    {
+      "n": 23,
+      "filename": "Lecture_23_中国1953至1978年计划经济怎样运转.md",
+      "title": "第23讲｜中国1953—1978年：传统计划经济究竟怎样在中国运转？",
+      "part": 5,
+      "characters": 30676,
+      "edited_sha256": "ccad859ebb37f34a43d340215e3c1f0be656340007c41e689a08036c2b7a861b",
+      "source_sha256": "7c4cdb592835689581aceb51548066b5ca784b793a11b9937621f25379e3e57e",
+      "footnotes": 0
+    },
+    {
+      "n": 24,
+      "filename": "Lecture_24_中国与匈牙利改革道路比较.md",
+      "title": "第24讲｜中国为什么走出了与匈牙利不同的改革道路？",
+      "part": 5,
+      "characters": 28106,
+      "edited_sha256": "73b52ba0cde6d4d00419086e711b1deafb0cea1f09b11e130bdd18fb3a693f8f",
+      "source_sha256": "fb45182f8c1f1f507fbf621dbac37e51fdc5cd53e46db72dc300aa1c9f3ee95e",
+      "footnotes": 0
+    },
+    {
+      "n": 25,
+      "filename": "Lecture_25_如何把历史经济变成可运行的计算模型.md",
+      "title": "第25讲｜如何把历史经济变成一个可运行的计算模型？",
+      "part": 6,
+      "characters": 29402,
+      "edited_sha256": "219815acbade0bd6bc5e26cc44fcac0c5341f44accaa4c27b35f41bd2f940ea4",
+      "source_sha256": "9a3f2643b10e523ceefda5de3a24ebe64261c1d014a41f1a4bcf979dcf79858b",
+      "footnotes": 23
+    },
+    {
+      "n": 26,
+      "filename": "Lecture_26_为什么模型运行正确却解释不了真实历史.md",
+      "title": "第26讲｜为什么模型运行正确，却完全解释不了真实历史？",
+      "part": 6,
+      "characters": 29659,
+      "edited_sha256": "a0a944e5bc2a76b5a1dd246b9e3a9c9681b259205507b8db89b111f387c3f818",
+      "source_sha256": "5f8825120986595884b3e4036c568f264a122e4cf9b442f0307ca9f1d1f5ebd1",
+      "footnotes": 19
+    },
+    {
+      "n": 27,
+      "filename": "Lecture_27_怎样检验历史解释_参数识别反事实与不确定性.md",
+      "title": "第27讲｜怎样检验历史解释？参数识别、反事实和不确定性",
+      "part": 6,
+      "characters": 30548,
+      "edited_sha256": "d4e0937f5e8c25cbdb2126df5bd205de62dc0a63ce36d4ae489fc2b2e723efe3",
+      "source_sha256": "b3947b1a43dcc23ab483dc8c8072cf4d6d3b8ca6f319441839a2ba1a5aff1cec",
+      "footnotes": 24
+    },
+    {
+      "n": 28,
+      "filename": "Lecture_28_计划经济的形成成功矛盾改革与不同命运.md",
+      "title": "第28讲｜综合结论：计划经济的形成、成功、矛盾、改革与不同命运",
+      "part": 6,
+      "characters": 25861,
+      "edited_sha256": "8d0aadf2eb53acd965fa1fbb94e70822db9da51e0f85e1204a07184a044fe60f",
+      "source_sha256": "27b220b35bc12f0f4880584309a088db37c4c5c3281e5dcb06878a4c26785d48",
+      "footnotes": 27
+    }
+  ],
+  "footnote_issues": []
+}
