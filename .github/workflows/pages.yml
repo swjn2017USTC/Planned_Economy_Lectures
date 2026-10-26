@@ -21,6 +21,8 @@ jobs:
           sudo apt-get install -y pandoc
       - name: Build website from chapters
         run: python3 tools/build.py
+      - name: Verify all 28 sidebar titles on every page
+        run: python3 tools/check_nav.py
       - name: Smoke-test interactive calculators
         run: node tools/test_interactions.cjs
       - name: Configure Pages
